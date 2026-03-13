@@ -10,7 +10,6 @@ interface SignalRow {
 }
 
 function getSignals(restaurant: Restaurant): SignalRow[] {
-  // Derive decorative signal values from restaurant data
   const ratingSignal = Math.round((restaurant.rating / 5) * 100);
   const reviewSignal = Math.min(100, Math.round((restaurant.review_count / 2000) * 80));
   const priceTierSignal = Math.round((restaurant.price_tier / 4) * 100);
@@ -24,6 +23,9 @@ function getSignals(restaurant: Restaurant): SignalRow[] {
   ];
 }
 
+const mono = "'JetBrains Mono', monospace";
+const sans = "'Inter', sans-serif";
+
 export default function RevenueEstimate({ restaurant }: RevenueEstimateProps) {
   const lowK = Math.round(restaurant.estimated_monthly_revenue_low / 1000);
   const highK = Math.round(restaurant.estimated_monthly_revenue_high / 1000);
@@ -31,46 +33,126 @@ export default function RevenueEstimate({ restaurant }: RevenueEstimateProps) {
   const confidence = 75;
 
   return (
-    <div className="bg-gray-900/70 backdrop-blur-xl border border-blue-500/20 rounded-xl p-6">
-      <div className="flex items-center gap-2 mb-4">
-        <h3 className="text-lg font-bold text-gray-50">Estimated Monthly Revenue</h3>
-        <span className="bg-purple-500/20 text-purple-400 text-xs rounded-full px-2 py-0.5">
+    <div
+      style={{
+        background: 'rgba(17,24,39,0.7)',
+        backdropFilter: 'blur(20px)',
+        border: '1px solid rgba(59,130,246,0.2)',
+        borderRadius: 16,
+        padding: 24,
+      }}
+    >
+      {/* Title row */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 16 }}>
+        <h3 style={{ fontSize: 18, fontWeight: 700, color: '#F9FAFB', margin: 0, fontFamily: sans }}>
+          Estimated Monthly Revenue
+        </h3>
+        <span
+          style={{
+            background: 'rgba(139,92,246,0.2)',
+            color: '#A78BFA',
+            fontSize: 11,
+            borderRadius: 9999,
+            padding: '2px 8px',
+            fontFamily: sans,
+          }}
+        >
           AI
         </span>
       </div>
 
-      <p className="font-mono text-2xl text-gray-50 mb-4">
+      {/* Big number */}
+      <p
+        style={{
+          fontFamily: mono,
+          fontSize: 28,
+          color: '#F9FAFB',
+          marginBottom: 16,
+          margin: '0 0 16px',
+        }}
+      >
         ${lowK}K &ndash; ${highK}K{' '}
-        <span className="text-sm text-gray-500">/month</span>
+        <span style={{ fontSize: 13, color: '#6B7280' }}>/month</span>
       </p>
 
       {/* Confidence bar */}
-      <div className="mb-5">
-        <div className="flex items-center justify-between text-xs mb-1">
-          <span className="text-gray-400">Confidence: High</span>
-          <span className="text-gray-500 font-mono">{confidence}%</span>
+      <div style={{ marginBottom: 20 }}>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            fontSize: 11,
+            marginBottom: 4,
+          }}
+        >
+          <span style={{ color: '#9CA3AF', fontFamily: sans }}>Confidence: High</span>
+          <span style={{ color: '#6B7280', fontFamily: mono }}>{confidence}%</span>
         </div>
-        <div className="w-full h-1.5 bg-gray-700 rounded-full overflow-hidden">
+        <div
+          style={{
+            width: '100%',
+            height: 6,
+            background: '#374151',
+            borderRadius: 9999,
+            overflow: 'hidden',
+          }}
+        >
           <div
-            className="h-full bg-purple-500 rounded-full"
-            style={{ width: `${confidence}%` }}
+            style={{
+              height: '100%',
+              background: '#8B5CF6',
+              borderRadius: 9999,
+              width: `${confidence}%`,
+            }}
           />
         </div>
       </div>
 
       {/* Signal breakdown */}
-      <div className="space-y-3">
-        <p className="text-xs text-gray-500 uppercase tracking-wider">Signal Breakdown</p>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+        <p
+          style={{
+            fontSize: 11,
+            color: '#6B7280',
+            textTransform: 'uppercase',
+            letterSpacing: '0.05em',
+            margin: 0,
+            fontFamily: sans,
+          }}
+        >
+          Signal Breakdown
+        </p>
         {signals.map((s) => (
           <div key={s.label}>
-            <div className="flex items-center justify-between text-xs mb-1">
-              <span className="text-gray-400">{s.label}</span>
-              <span className="text-gray-500 font-mono">{s.value}%</span>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                fontSize: 11,
+                marginBottom: 4,
+              }}
+            >
+              <span style={{ color: '#9CA3AF', fontFamily: sans }}>{s.label}</span>
+              <span style={{ color: '#6B7280', fontFamily: mono }}>{s.value}%</span>
             </div>
-            <div className="w-full h-1 bg-gray-700 rounded-full overflow-hidden">
+            <div
+              style={{
+                width: '100%',
+                height: 4,
+                background: '#374151',
+                borderRadius: 9999,
+                overflow: 'hidden',
+              }}
+            >
               <div
-                className="h-full bg-blue-500/70 rounded-full"
-                style={{ width: `${s.value}%` }}
+                style={{
+                  height: '100%',
+                  background: 'rgba(59,130,246,0.7)',
+                  borderRadius: 9999,
+                  width: `${s.value}%`,
+                }}
               />
             </div>
           </div>

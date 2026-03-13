@@ -1,29 +1,49 @@
 import { BarChart3 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0A0E1A]/80 backdrop-blur-xl border-b border-blue-500/10">
-      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        {/* Logo */}
-        <a href="/" className="flex items-center gap-2">
-          <BarChart3 className="w-6 h-6 text-blue-500" />
-          <span className="text-white font-bold text-lg tracking-tight">DineSignal</span>
-        </a>
+    <nav style={{
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      right: 0,
+      zIndex: 50,
+      background: 'rgba(10,14,26,0.85)',
+      backdropFilter: 'blur(20px)',
+      borderBottom: '1px solid rgba(59,130,246,0.1)',
+    }}>
+      <div style={{
+        maxWidth: '1280px',
+        margin: '0 auto',
+        padding: '0 40px',
+        height: '64px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+      }}>
+        <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none' }}>
+          <BarChart3 style={{ width: '24px', height: '24px', color: '#3B82F6' }} />
+          <span style={{ color: '#fff', fontWeight: 700, fontSize: '18px', letterSpacing: '-0.01em' }}>DineSignal</span>
+        </Link>
 
-        {/* Center nav */}
-        <div className="hidden md:flex items-center gap-8">
-          <a href="#platform" className="text-gray-400 hover:text-white transition-colors text-sm">Platform</a>
-          <a href="#pricing" className="text-gray-400 hover:text-white transition-colors text-sm">Pricing</a>
-          <a href="#about" className="text-gray-400 hover:text-white transition-colors text-sm">About</a>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
+          <Link to="/map" style={{ color: '#9CA3AF', fontSize: '14px', textDecoration: 'none' }}>Platform</Link>
+          <a href="#pricing" style={{ color: '#9CA3AF', fontSize: '14px', textDecoration: 'none' }}>Pricing</a>
+          <a href="#about" style={{ color: '#9CA3AF', fontSize: '14px', textDecoration: 'none' }}>About</a>
         </div>
 
-        {/* Right actions */}
-        <div className="flex items-center gap-4">
-          <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Log In</a>
-          <a
-            href="#hero"
-            className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-          >
+        <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+          <a href="#" style={{ color: '#9CA3AF', fontSize: '14px', textDecoration: 'none' }}>Log In</a>
+          <a href="#hero" style={{
+            background: '#2563EB',
+            color: '#fff',
+            fontSize: '14px',
+            fontWeight: 500,
+            padding: '8px 16px',
+            borderRadius: '8px',
+            textDecoration: 'none',
+          }}>
             Get Early Access
           </a>
         </div>

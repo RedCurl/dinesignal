@@ -11,53 +11,166 @@ export default function DashboardHeader({ restaurant, opportunity }: DashboardHe
   const dollarSigns = '$'.repeat(restaurant.price_tier);
 
   return (
-    <div className="mb-8">
+    <div style={{ marginBottom: 32 }}>
       <Link
         to="/"
-        className="inline-flex items-center gap-1.5 text-sm text-gray-400 hover:text-blue-400 transition-colors mb-4"
+        style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          gap: 6,
+          fontSize: 14,
+          color: '#9CA3AF',
+          textDecoration: 'none',
+          marginBottom: 16,
+          fontFamily: "'Inter', sans-serif",
+        }}
       >
-        <ArrowLeft className="w-4 h-4" />
+        <ArrowLeft style={{ width: 16, height: 16 }} />
         Back to Search
       </Link>
 
-      <div className="bg-gray-900/70 backdrop-blur-xl border border-blue-500/20 rounded-xl p-6 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+      <div
+        style={{
+          background: 'rgba(17,24,39,0.7)',
+          backdropFilter: 'blur(20px)',
+          border: '1px solid rgba(59,130,246,0.2)',
+          borderRadius: 16,
+          padding: 24,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: 24,
+        }}
+      >
         {/* Left side */}
-        <div className="flex flex-col gap-2">
-          <div className="flex items-center gap-3 flex-wrap">
-            <h1 className="text-3xl font-bold text-gray-50">{restaurant.name}</h1>
-            <span className="bg-blue-500/20 text-blue-400 rounded-full px-3 py-1 text-sm">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
+            <h1
+              style={{
+                fontSize: 32,
+                fontWeight: 700,
+                color: '#F9FAFB',
+                fontFamily: "'Inter', sans-serif",
+                margin: 0,
+              }}
+            >
+              {restaurant.name}
+            </h1>
+            <span
+              style={{
+                background: 'rgba(59,130,246,0.2)',
+                color: '#60A5FA',
+                borderRadius: 9999,
+                padding: '4px 12px',
+                fontSize: 13,
+                fontFamily: "'Inter', sans-serif",
+              }}
+            >
               {restaurant.cuisine_type}
             </span>
-            <span className="text-gray-500 text-sm">{dollarSigns}</span>
+            <span
+              style={{
+                color: '#6B7280',
+                fontSize: 14,
+                fontFamily: "'Inter', sans-serif",
+              }}
+            >
+              {dollarSigns}
+            </span>
           </div>
 
-          <div className="flex items-center gap-4 text-sm text-gray-400">
-            <span className="flex items-center gap-1">
-              <MapPin className="w-3.5 h-3.5" />
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: 16,
+              fontSize: 13,
+              color: '#9CA3AF',
+              fontFamily: "'Inter', sans-serif",
+            }}
+          >
+            <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+              <MapPin style={{ width: 14, height: 14 }} />
               {restaurant.address}
             </span>
           </div>
 
-          <div className="flex items-center gap-3 text-sm">
-            <span className="flex items-center gap-1 text-yellow-400">
-              <Star className="w-4 h-4 fill-yellow-400" />
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: 12,
+              fontSize: 13,
+            }}
+          >
+            <span
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: 4,
+                color: '#FBBF24',
+                fontFamily: "'Inter', sans-serif",
+              }}
+            >
+              <Star style={{ width: 16, height: 16, fill: '#FBBF24', color: '#FBBF24' }} />
               {restaurant.rating}
             </span>
-            <span className="text-gray-500">
+            <span
+              style={{
+                color: '#6B7280',
+                fontFamily: "'Inter', sans-serif",
+              }}
+            >
               {restaurant.review_count.toLocaleString()} reviews
             </span>
           </div>
         </div>
 
-        {/* Right side — opportunity */}
-        <div className="bg-gray-800/60 border border-green-500/30 rounded-xl px-6 py-4 min-w-[260px] shadow-[0_0_30px_rgba(16,185,129,0.08)]">
-          <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">
+        {/* Right side - opportunity */}
+        <div
+          style={{
+            background: 'rgba(31,41,55,0.6)',
+            border: '1px solid rgba(16,185,129,0.3)',
+            borderRadius: 16,
+            padding: '16px 24px',
+            minWidth: 260,
+            boxShadow: '0 0 30px rgba(16,185,129,0.08)',
+          }}
+        >
+          <p
+            style={{
+              fontSize: 11,
+              color: '#9CA3AF',
+              textTransform: 'uppercase',
+              letterSpacing: '0.05em',
+              marginBottom: 4,
+              fontFamily: "'Inter', sans-serif",
+            }}
+          >
             Potential Additional Revenue
           </p>
-          <p className="text-4xl font-mono text-green-400 font-bold leading-tight">
-            +${opportunity.yearly.toLocaleString()}<span className="text-lg text-green-400/70">/year</span>
+          <p
+            style={{
+              fontSize: 36,
+              fontFamily: "'JetBrains Mono', monospace",
+              color: '#34D399',
+              fontWeight: 700,
+              lineHeight: 1.1,
+              margin: 0,
+            }}
+          >
+            +${opportunity.yearly.toLocaleString()}
+            <span style={{ fontSize: 16, color: 'rgba(52,211,153,0.7)' }}>/year</span>
           </p>
-          <p className="text-lg font-mono text-green-400/60 mt-0.5">
+          <p
+            style={{
+              fontSize: 18,
+              fontFamily: "'JetBrains Mono', monospace",
+              color: 'rgba(52,211,153,0.6)',
+              marginTop: 2,
+              margin: 0,
+            }}
+          >
             +${opportunity.monthly.toLocaleString()}/month
           </p>
         </div>

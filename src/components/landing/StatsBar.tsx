@@ -5,17 +5,19 @@ interface Stat {
   label: string;
   prefix?: string;
   suffix?: string;
-  accent: string;
+  borderColor: string;
 }
 
 const STATS: Stat[] = [
-  { value: 12847, label: 'Restaurants Tracked', suffix: '', accent: 'border-blue-500' },
-  { value: 2.4,   label: 'Menu Items Analyzed', suffix: 'M', accent: 'border-blue-500' },
-  { value: 137,   label: 'Avg Revenue Left on Table', prefix: '$', suffix: 'K', accent: 'border-green-500' },
-  { value: 30,    label: 'Time to First Insight', prefix: '< ', suffix: 's', accent: 'border-white/50' },
+  { value: 12847, label: 'Restaurants Tracked', borderColor: '#3B82F6' },
+  { value: 2.4, label: 'Menu Items Analyzed', suffix: 'M', borderColor: '#3B82F6' },
+  { value: 137, label: 'Avg Revenue Left on Table', prefix: '$', suffix: 'K', borderColor: '#10B981' },
+  { value: 30, label: 'Time to First Insight', prefix: '< ', suffix: 's', borderColor: 'rgba(255,255,255,0.3)' },
 ];
 
-function useCountUp(target: number, duration = 2000) {
+const mono = "'JetBrains Mono', monospace";
+
+function StatCard({ stat }: { stat: Stat }) {
   const [value, setValue] = useState(0);
   const ref = useRef<HTMLDivElement>(null);
   const started = useRef(false);
@@ -23,16 +25,15 @@ function useCountUp(target: number, duration = 2000) {
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting && !started.current) {
           started.current = true;
           const start = performance.now();
           const step = (now: number) => {
-            const progress = Math.min((now - start) / duration, 1);
+            const progress = Math.min((now - start) / 2000, 1);
             const eased = 1 - Math.pow(1 - progress, 3);
-            setValue(eased * target);
+            setValue(eased * stat.value);
             if (progress < 1) requestAnimationFrame(step);
           };
           requestAnimationFrame(step);
@@ -42,40 +43,35 @@ function useCountUp(target: number, duration = 2000) {
     );
     observer.observe(el);
     return () => observer.disconnect();
-  }, [target, duration]);
+  }, [stat.value]);
 
-  return { value, ref };
-}
-
-function StatCard({ stat }: { stat: Stat }) {
-  const { value, ref } = useCountUp(stat.value);
-
-  const display =
-    stat.value >= 100
-      ? Math.round(value).toLocaleString()
-      : stat.value >= 1
-        ? value.toFixed(1)
-        : Math.round(value).toString();
+  const display = stat.value >= 100
+    ? Math.round(value).toLocaleString()
+    : stat.value >= 1
+      ? value.toFixed(1)
+      : Math.round(value).toString();
 
   return (
-    <div
-      ref={ref}
-      className={`bg-gray-900/70 backdrop-blur-xl border border-blue-500/20 border-t-2 ${stat.accent} rounded-xl p-6 text-center`}
-    >
-      <p className="font-mono text-3xl font-bold text-white">
-        {stat.prefix ?? ''}
-        {display}
-        {stat.suffix ?? ''}
+    <div ref={ref} style={{
+      background: 'rgba(17,24,39,0.7)',
+      border: '1px solid rgba(59,130,246,0.2)',
+      borderTop: `2px solid ${stat.borderColor}`,
+      borderRadius: '12px',
+      padding: '24px',
+      textAlign: 'center',
+    }}>
+      <p style={{ fontFamily: mono, fontSize: '32px', fontWeight: 700, color: '#fff' }}>
+        {stat.prefix ?? ''}{display}{stat.suffix ?? ''}
       </p>
-      <p className="text-gray-500 text-sm mt-2">{stat.label}</p>
+      <p style={{ color: '#6B7280', fontSize: '13px', marginTop: '8px' }}>{stat.label}</p>
     </div>
   );
 }
 
 export default function StatsBar() {
   return (
-    <section className="py-12 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-4">
+    <section style={{ padding: '48px 40px', maxWidth: '1280px', margin: '0 auto' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '16px' }}>
         {STATS.map((stat) => (
           <StatCard key={stat.label} stat={stat} />
         ))}

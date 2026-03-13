@@ -1,0 +1,5582 @@
+[
+  {
+    "restaurant_id": "rest-1",
+    "restaurant_name": "Evvia Estiatorio",
+    "name": "Grilled Halloumi",
+    "description": "Pan-seared halloumi cheese with za'atar, honey, and mint",
+    "price": 20,
+    "category": "appetizer",
+    "subcategory": "cheese",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-1",
+    "restaurant_name": "Evvia Estiatorio",
+    "name": "Grilled Octopus",
+    "description": "Charred tentacles with capers, olive oil, and lemon",
+    "price": 20,
+    "category": "appetizer",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-1",
+    "restaurant_name": "Evvia Estiatorio",
+    "name": "Whole Branzino",
+    "description": "Wood-grilled Mediterranean sea bass with lemon and herbs",
+    "price": 42.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-1",
+    "restaurant_name": "Evvia Estiatorio",
+    "name": "Lamb Kofta",
+    "description": "Grilled ground lamb skewers with yogurt sauce and rice",
+    "price": 22,
+    "category": "entree",
+    "subcategory": "lamb",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-1",
+    "restaurant_name": "Evvia Estiatorio",
+    "name": "Chicken Shawarma Plate",
+    "description": "Slow-roasted spiced chicken with rice, hummus, and salad",
+    "price": 20.5,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-1",
+    "restaurant_name": "Evvia Estiatorio",
+    "name": "Chicken Souvlaki",
+    "description": "Marinated chicken skewers with tzatziki and Greek salad",
+    "price": 27,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-1",
+    "restaurant_name": "Evvia Estiatorio",
+    "name": "Falafel Plate",
+    "description": "Five falafel with hummus, tabbouleh, and warm pita",
+    "price": 22.5,
+    "category": "entree",
+    "subcategory": "vegetarian",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-1",
+    "restaurant_name": "Evvia Estiatorio",
+    "name": "Tabbouleh",
+    "description": "Bulgur wheat with parsley, tomato, mint, and lemon",
+    "price": 9,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-1",
+    "restaurant_name": "Evvia Estiatorio",
+    "name": "Greek Salad",
+    "description": "Tomato, cucumber, olive, feta, and red onion",
+    "price": 17,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-1",
+    "restaurant_name": "Evvia Estiatorio",
+    "name": "Roasted Potatoes",
+    "description": "Lemon herb roasted fingerling potatoes",
+    "price": 8.5,
+    "category": "side",
+    "subcategory": "potato",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-1",
+    "restaurant_name": "Evvia Estiatorio",
+    "name": "Turkish Coffee",
+    "description": "Traditional finely-ground coffee with cardamom",
+    "price": 7,
+    "category": "drink",
+    "subcategory": "coffee",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-1",
+    "restaurant_name": "Evvia Estiatorio",
+    "name": "Baklava",
+    "description": "Flaky phyllo with walnuts, pistachios, and honey syrup",
+    "price": 14,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-2",
+    "restaurant_name": "Tamarine",
+    "name": "Summer Rolls",
+    "description": "Fresh rice paper rolls with shrimp, vermicelli, herbs, and peanut sauce",
+    "price": 14.5,
+    "category": "appetizer",
+    "subcategory": "roll",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-2",
+    "restaurant_name": "Tamarine",
+    "name": "Crispy Spring Rolls",
+    "description": "Fried rolls with pork, shrimp, and vegetables with nuoc cham",
+    "price": 11,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-2",
+    "restaurant_name": "Tamarine",
+    "name": "Com Tam",
+    "description": "Broken rice with grilled pork chop, egg cake, and pickled vegetables",
+    "price": 18.5,
+    "category": "entree",
+    "subcategory": "rice",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-2",
+    "restaurant_name": "Tamarine",
+    "name": "Bun Thit Nuong",
+    "description": "Vermicelli bowl with grilled pork, spring roll, and fish sauce",
+    "price": 22.5,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-2",
+    "restaurant_name": "Tamarine",
+    "name": "Shaking Beef",
+    "description": "Wok-seared filet mignon cubes with watercress and lime dipping sauce",
+    "price": 40,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-2",
+    "restaurant_name": "Tamarine",
+    "name": "Pho Bo",
+    "description": "Classic beef pho with rice noodles, rare steak, and herbs",
+    "price": 19,
+    "category": "entree",
+    "subcategory": "soup",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-2",
+    "restaurant_name": "Tamarine",
+    "name": "Bun Bo Hue",
+    "description": "Spicy lemongrass beef noodle soup with pork and blood cake",
+    "price": 21.5,
+    "category": "entree",
+    "subcategory": "soup",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-2",
+    "restaurant_name": "Tamarine",
+    "name": "Steamed Rice",
+    "description": "Jasmine rice",
+    "price": 3.5,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-2",
+    "restaurant_name": "Tamarine",
+    "name": "Pickled Vegetables",
+    "description": "House-pickled daikon and carrots",
+    "price": 5,
+    "category": "side",
+    "subcategory": "pickle",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-2",
+    "restaurant_name": "Tamarine",
+    "name": "Vietnamese Iced Coffee",
+    "description": "Strong drip coffee with sweetened condensed milk over ice",
+    "price": 8.5,
+    "category": "drink",
+    "subcategory": "coffee",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-2",
+    "restaurant_name": "Tamarine",
+    "name": "Che Ba Mau",
+    "description": "Three-color dessert with beans, jelly, and coconut milk",
+    "price": 11.5,
+    "category": "dessert",
+    "subcategory": "traditional",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-2",
+    "restaurant_name": "Tamarine",
+    "name": "Coconut Flan",
+    "description": "Vietnamese-style caramel custard with coconut",
+    "price": 8.5,
+    "category": "dessert",
+    "subcategory": "custard",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-2",
+    "restaurant_name": "Tamarine",
+    "name": "Fried Banana",
+    "description": "Crispy fried banana with coconut ice cream",
+    "price": 8,
+    "category": "dessert",
+    "subcategory": "fried",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-3",
+    "restaurant_name": "Oren's Hummus",
+    "name": "Grilled Halloumi",
+    "description": "Pan-seared halloumi cheese with za'atar, honey, and mint",
+    "price": 12.5,
+    "category": "appetizer",
+    "subcategory": "cheese",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-3",
+    "restaurant_name": "Oren's Hummus",
+    "name": "Grilled Octopus",
+    "description": "Charred tentacles with capers, olive oil, and lemon",
+    "price": 16,
+    "category": "appetizer",
+    "subcategory": "seafood",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-3",
+    "restaurant_name": "Oren's Hummus",
+    "name": "Whole Branzino",
+    "description": "Wood-grilled Mediterranean sea bass with lemon and herbs",
+    "price": 34,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-3",
+    "restaurant_name": "Oren's Hummus",
+    "name": "Chicken Shawarma Plate",
+    "description": "Slow-roasted spiced chicken with rice, hummus, and salad",
+    "price": 15.5,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-3",
+    "restaurant_name": "Oren's Hummus",
+    "name": "Chicken Souvlaki",
+    "description": "Marinated chicken skewers with tzatziki and Greek salad",
+    "price": 22,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-3",
+    "restaurant_name": "Oren's Hummus",
+    "name": "Lamb Kofta",
+    "description": "Grilled ground lamb skewers with yogurt sauce and rice",
+    "price": 23,
+    "category": "entree",
+    "subcategory": "lamb",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-3",
+    "restaurant_name": "Oren's Hummus",
+    "name": "Falafel Plate",
+    "description": "Five falafel with hummus, tabbouleh, and warm pita",
+    "price": 18.5,
+    "category": "entree",
+    "subcategory": "vegetarian",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-3",
+    "restaurant_name": "Oren's Hummus",
+    "name": "Vegetable Tagine",
+    "description": "Slow-cooked vegetables in Moroccan spices with couscous",
+    "price": 19.5,
+    "category": "entree",
+    "subcategory": "vegetarian",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-3",
+    "restaurant_name": "Oren's Hummus",
+    "name": "Grilled Salmon",
+    "description": "Atlantic salmon with herb chermoula and roasted vegetables",
+    "price": 27,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-3",
+    "restaurant_name": "Oren's Hummus",
+    "name": "Tabbouleh",
+    "description": "Bulgur wheat with parsley, tomato, mint, and lemon",
+    "price": 9,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-3",
+    "restaurant_name": "Oren's Hummus",
+    "name": "Greek Salad",
+    "description": "Tomato, cucumber, olive, feta, and red onion",
+    "price": 14.5,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-3",
+    "restaurant_name": "Oren's Hummus",
+    "name": "Fresh Mint Lemonade",
+    "description": "House-squeezed lemonade with fresh mint",
+    "price": 6,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-3",
+    "restaurant_name": "Oren's Hummus",
+    "name": "Baklava",
+    "description": "Flaky phyllo with walnuts, pistachios, and honey syrup",
+    "price": 10,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Gyoza",
+    "description": "Pan-fried pork dumplings with dipping sauce",
+    "price": 17,
+    "category": "appetizer",
+    "subcategory": "dumpling",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Shishito Peppers",
+    "description": "Blistered peppers with bonito flakes and ponzu",
+    "price": 16.5,
+    "category": "appetizer",
+    "subcategory": "vegetable",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Takoyaki",
+    "description": "Octopus fritters with takoyaki sauce, mayo, and bonito",
+    "price": 20,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Hamachi Tartare",
+    "description": "Diced yellowtail with avocado, yuzu, and crispy wontons",
+    "price": 24.5,
+    "category": "appetizer",
+    "subcategory": "raw",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Tonkotsu Ramen",
+    "description": "Rich pork bone broth with chashu, soft egg, nori, and scallions",
+    "price": 31.5,
+    "category": "entree",
+    "subcategory": "ramen",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Chicken Katsu Curry",
+    "description": "Crispy breaded chicken with Japanese curry sauce over rice",
+    "price": 33,
+    "category": "entree",
+    "subcategory": "curry",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Wagyu Donburi",
+    "description": "A5 wagyu beef over rice with truffle soy and soft egg",
+    "price": 57,
+    "category": "entree",
+    "subcategory": "rice bowl",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Udon Tempura",
+    "description": "Thick wheat noodles in dashi broth with shrimp and vegetable tempura",
+    "price": 27,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Salmon Sashimi",
+    "description": "12 pieces of premium fresh salmon sashimi",
+    "price": 29,
+    "category": "entree",
+    "subcategory": "sashimi",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Steamed Rice",
+    "description": "Japanese short-grain rice",
+    "price": 4,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Miso Soup",
+    "description": "Traditional miso with tofu, wakame, and scallions",
+    "price": 5.5,
+    "category": "side",
+    "subcategory": "soup",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Sake Flight",
+    "description": "Three premium sake selections",
+    "price": 30.5,
+    "category": "drink",
+    "subcategory": "alcohol",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Ramune Soda",
+    "description": "Classic Japanese marble soda",
+    "price": 6.5,
+    "category": "drink",
+    "subcategory": "soda",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Japanese Green Tea",
+    "description": "Hot sencha green tea",
+    "price": 7.5,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-4",
+    "restaurant_name": "Nobu Palo Alto",
+    "name": "Mochi Ice Cream",
+    "description": "Three assorted mochi ice cream flavors",
+    "price": 13.5,
+    "category": "dessert",
+    "subcategory": "frozen",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-5",
+    "restaurant_name": "Pizzeria Delfina",
+    "name": "Garlic Knots",
+    "description": "Warm dough knots tossed in garlic butter and herbs",
+    "price": 9,
+    "category": "appetizer",
+    "subcategory": "bread",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-5",
+    "restaurant_name": "Pizzeria Delfina",
+    "name": "Bruschetta",
+    "description": "Toasted bread with fresh tomatoes, basil, and garlic",
+    "price": 9.5,
+    "category": "appetizer",
+    "subcategory": "bread",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-5",
+    "restaurant_name": "Pizzeria Delfina",
+    "name": "Sausage & Peppers Pizza",
+    "description": "Italian sausage, roasted peppers, and mozzarella",
+    "price": 21.5,
+    "category": "entree",
+    "subcategory": "pizza",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-5",
+    "restaurant_name": "Pizzeria Delfina",
+    "name": "Diavola Pizza",
+    "description": "Spicy salami, Calabrian chili, mozzarella, and honey drizzle",
+    "price": 19,
+    "category": "entree",
+    "subcategory": "pizza",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-5",
+    "restaurant_name": "Pizzeria Delfina",
+    "name": "Quattro Formaggi",
+    "description": "Four cheese: mozzarella, gorgonzola, fontina, and Parmigiano",
+    "price": 22,
+    "category": "entree",
+    "subcategory": "pizza",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-5",
+    "restaurant_name": "Pizzeria Delfina",
+    "name": "White Truffle Pizza",
+    "description": "Truffle cream, wild mushrooms, fontina, and arugula",
+    "price": 21.5,
+    "category": "entree",
+    "subcategory": "pizza",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-5",
+    "restaurant_name": "Pizzeria Delfina",
+    "name": "House Salad",
+    "description": "Mixed greens with tomato, cucumber, and balsamic vinaigrette",
+    "price": 9.5,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-5",
+    "restaurant_name": "Pizzeria Delfina",
+    "name": "Caesar Salad",
+    "description": "Romaine, Parmesan, croutons, and classic Caesar dressing",
+    "price": 11.5,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-5",
+    "restaurant_name": "Pizzeria Delfina",
+    "name": "Garlic Breadsticks",
+    "description": "Warm breadsticks with garlic butter and marinara",
+    "price": 6.5,
+    "category": "side",
+    "subcategory": "bread",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-5",
+    "restaurant_name": "Pizzeria Delfina",
+    "name": "House Red Wine",
+    "description": "Glass of Italian red — Chianti or Montepulciano",
+    "price": 11.5,
+    "category": "drink",
+    "subcategory": "wine",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-5",
+    "restaurant_name": "Pizzeria Delfina",
+    "name": "Gelato",
+    "description": "Two scoops of artisan Italian gelato",
+    "price": 9.5,
+    "category": "dessert",
+    "subcategory": "frozen",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "Loaded Potato Skins",
+    "description": "Crispy potato halves with cheddar, bacon, and sour cream",
+    "price": 19.5,
+    "category": "appetizer",
+    "subcategory": "potato",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "Crab Cake",
+    "description": "Pan-seared jumbo lump crab cake with remoulade",
+    "price": 32.5,
+    "category": "appetizer",
+    "subcategory": "seafood",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "Chicken Wings",
+    "description": "Crispy wings tossed in buffalo, BBQ, or garlic Parmesan",
+    "price": 25.5,
+    "category": "appetizer",
+    "subcategory": "wings",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "Crispy Calamari",
+    "description": "Lightly breaded calamari with lemon aioli and marinara",
+    "price": 20,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "Classic Burger",
+    "description": "Angus beef patty with lettuce, tomato, onion, and house sauce on brioche",
+    "price": 31.5,
+    "category": "entree",
+    "subcategory": "burger",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "Pan-Seared Salmon",
+    "description": "Wild salmon with lemon-dill butter, asparagus, and fingerling potatoes",
+    "price": 38,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "Grilled Pork Chop",
+    "description": "Double-cut pork chop with apple chutney and mashed potatoes",
+    "price": 51.5,
+    "category": "entree",
+    "subcategory": "pork",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "Mac & Cheese",
+    "description": "Three-cheese baked macaroni with breadcrumb crust",
+    "price": 21,
+    "category": "entree",
+    "subcategory": "comfort",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "Mashed Potatoes",
+    "description": "Yukon Gold potatoes whipped with butter and cream",
+    "price": 10,
+    "category": "side",
+    "subcategory": "potato",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "Creamed Spinach",
+    "description": "Classic steakhouse creamed spinach",
+    "price": 15,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "Old Fashioned",
+    "description": "Bourbon, bitters, orange peel, cherry",
+    "price": 27,
+    "category": "drink",
+    "subcategory": "cocktail",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "Chocolate Lava Cake",
+    "description": "Warm molten chocolate cake with vanilla ice cream",
+    "price": 23.5,
+    "category": "dessert",
+    "subcategory": "chocolate",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "Apple Pie a la Mode",
+    "description": "Warm apple pie with cinnamon ice cream",
+    "price": 17.5,
+    "category": "dessert",
+    "subcategory": "pie",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-6",
+    "restaurant_name": "Protege",
+    "name": "New York Cheesecake",
+    "description": "Classic creamy cheesecake with berry compote",
+    "price": 22,
+    "category": "dessert",
+    "subcategory": "cake",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Takoyaki",
+    "description": "Octopus fritters with takoyaki sauce, mayo, and bonito",
+    "price": 15.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Hamachi Tartare",
+    "description": "Diced yellowtail with avocado, yuzu, and crispy wontons",
+    "price": 17,
+    "category": "appetizer",
+    "subcategory": "raw",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Gyoza",
+    "description": "Pan-fried pork dumplings with dipping sauce",
+    "price": 15.5,
+    "category": "appetizer",
+    "subcategory": "dumpling",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Shishito Peppers",
+    "description": "Blistered peppers with bonito flakes and ponzu",
+    "price": 14.5,
+    "category": "appetizer",
+    "subcategory": "vegetable",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Tonkotsu Ramen",
+    "description": "Rich pork bone broth with chashu, soft egg, nori, and scallions",
+    "price": 26.5,
+    "category": "entree",
+    "subcategory": "ramen",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Chicken Katsu Curry",
+    "description": "Crispy breaded chicken with Japanese curry sauce over rice",
+    "price": 25.5,
+    "category": "entree",
+    "subcategory": "curry",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Udon Tempura",
+    "description": "Thick wheat noodles in dashi broth with shrimp and vegetable tempura",
+    "price": 25,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Wagyu Donburi",
+    "description": "A5 wagyu beef over rice with truffle soy and soft egg",
+    "price": 48,
+    "category": "entree",
+    "subcategory": "rice bowl",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Chirashi Bowl",
+    "description": "Assorted sashimi over seasoned sushi rice",
+    "price": 37,
+    "category": "entree",
+    "subcategory": "sushi",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Salmon Sashimi",
+    "description": "12 pieces of premium fresh salmon sashimi",
+    "price": 30.5,
+    "category": "entree",
+    "subcategory": "sashimi",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Teriyaki Salmon",
+    "description": "Grilled salmon fillet with house teriyaki glaze and steamed rice",
+    "price": 29.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Steamed Rice",
+    "description": "Japanese short-grain rice",
+    "price": 4.5,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Miso Soup",
+    "description": "Traditional miso with tofu, wakame, and scallions",
+    "price": 6,
+    "category": "side",
+    "subcategory": "soup",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Sake Flight",
+    "description": "Three premium sake selections",
+    "price": 26,
+    "category": "drink",
+    "subcategory": "alcohol",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-7",
+    "restaurant_name": "Bird Dog",
+    "name": "Mochi Ice Cream",
+    "description": "Three assorted mochi ice cream flavors",
+    "price": 11.5,
+    "category": "dessert",
+    "subcategory": "frozen",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Queso Fundido",
+    "description": "Melted Oaxacan cheese with chorizo and flour tortillas",
+    "price": 15,
+    "category": "appetizer",
+    "subcategory": "cheese",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Elote",
+    "description": "Grilled Mexican street corn with mayo, cotija, chili, and lime",
+    "price": 10,
+    "category": "appetizer",
+    "subcategory": "vegetable",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Ceviche Tostada",
+    "description": "Fresh fish cured in lime with avocado, cilantro, and serrano",
+    "price": 16.5,
+    "category": "appetizer",
+    "subcategory": "seafood",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Nachos Supreme",
+    "description": "Loaded tortilla chips with beans, cheese, pico, sour cream, and jalapenos",
+    "price": 15.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Shrimp Fajitas",
+    "description": "Sizzling shrimp with peppers and onions, served with tortillas",
+    "price": 19.5,
+    "category": "entree",
+    "subcategory": "fajita",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Chicken Enchiladas",
+    "description": "Three corn tortillas with shredded chicken, red sauce, and cheese",
+    "price": 15,
+    "category": "entree",
+    "subcategory": "traditional",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Fish Tacos",
+    "description": "Beer-battered cod with cabbage slaw, chipotle crema, and lime",
+    "price": 18,
+    "category": "entree",
+    "subcategory": "taco",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Carnitas Tacos",
+    "description": "Three slow-cooked pork tacos with onion, cilantro, and salsa",
+    "price": 15,
+    "category": "entree",
+    "subcategory": "taco",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Chips & Salsa",
+    "description": "House-made tortilla chips with salsa roja and salsa verde",
+    "price": 6.5,
+    "category": "side",
+    "subcategory": "snack",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Mexican Rice",
+    "description": "Traditional tomato-seasoned rice",
+    "price": 6,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Classic Margarita",
+    "description": "Tequila, fresh lime, triple sec, salt rim",
+    "price": 15,
+    "category": "drink",
+    "subcategory": "cocktail",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Jarritos",
+    "description": "Mexican fruit soda — tamarind, mandarin, or lime",
+    "price": 4.5,
+    "category": "drink",
+    "subcategory": "soda",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Horchata",
+    "description": "Traditional rice milk with cinnamon and vanilla",
+    "price": 6,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Tres Leches Cake",
+    "description": "Three-milk sponge cake with whipped cream and berries",
+    "price": 13,
+    "category": "dessert",
+    "subcategory": "cake",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Churros con Chocolate",
+    "description": "Crispy cinnamon-sugar churros with chocolate dipping sauce",
+    "price": 11.5,
+    "category": "dessert",
+    "subcategory": "fried",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-8",
+    "restaurant_name": "Palo Alto Sol",
+    "name": "Flan",
+    "description": "Classic Mexican caramel custard",
+    "price": 11,
+    "category": "dessert",
+    "subcategory": "custard",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Arancini",
+    "description": "Crispy risotto balls stuffed with mozzarella, served with pomodoro",
+    "price": 19.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Antipasto Plate",
+    "description": "Cured meats, marinated vegetables, olives, and artisan cheeses",
+    "price": 21,
+    "category": "appetizer",
+    "subcategory": "charcuterie",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Pasta Carbonara",
+    "description": "Spaghetti with guanciale, egg yolk, Pecorino Romano, black pepper",
+    "price": 22.5,
+    "category": "entree",
+    "subcategory": "pasta",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Branzino al Forno",
+    "description": "Oven-roasted Mediterranean sea bass with lemon and herbs",
+    "price": 31,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Margherita Pizza",
+    "description": "San Marzano tomatoes, fresh mozzarella, basil on wood-fired crust",
+    "price": 22.5,
+    "category": "entree",
+    "subcategory": "pizza",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Penne all'Arrabbiata",
+    "description": "Penne with spicy tomato sauce, garlic, and red chili flakes",
+    "price": 22,
+    "category": "entree",
+    "subcategory": "pasta",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Risotto ai Funghi",
+    "description": "Arborio rice with wild mushrooms, truffle oil, and Parmigiano",
+    "price": 25,
+    "category": "entree",
+    "subcategory": "risotto",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Veal Piccata",
+    "description": "Pan-seared veal medallions with lemon-caper butter sauce",
+    "price": 37.5,
+    "category": "entree",
+    "subcategory": "meat",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Osso Buco",
+    "description": "Braised veal shank with gremolata and saffron risotto",
+    "price": 35.5,
+    "category": "entree",
+    "subcategory": "meat",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Sauteed Broccolini",
+    "description": "With garlic, chili flakes, and olive oil",
+    "price": 10,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Caesar Salad",
+    "description": "Romaine, house-made dressing, croutons, shaved Parmigiano",
+    "price": 18.5,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Garlic Bread",
+    "description": "Toasted ciabatta with roasted garlic butter and herbs",
+    "price": 7.5,
+    "category": "side",
+    "subcategory": "bread",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Limoncello Spritz",
+    "description": "Limoncello, prosecco, soda water, fresh lemon",
+    "price": 15.5,
+    "category": "drink",
+    "subcategory": "cocktail",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Panna Cotta",
+    "description": "Vanilla bean custard with seasonal berry compote",
+    "price": 13.5,
+    "category": "dessert",
+    "subcategory": "custard",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Cannoli",
+    "description": "Crispy shells filled with sweet ricotta and chocolate chips",
+    "price": 11.5,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-9",
+    "restaurant_name": "Vaso Azzurro",
+    "name": "Tiramisu",
+    "description": "Classic espresso-soaked ladyfingers with mascarpone cream",
+    "price": 17,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Loaded Fries",
+    "description": "Crispy fries with cheese sauce, bacon bits, and scallions",
+    "price": 11.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Chicken Tenders",
+    "description": "Hand-breaded chicken strips with honey mustard and BBQ",
+    "price": 12.5,
+    "category": "appetizer",
+    "subcategory": "chicken",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Nachos",
+    "description": "Tortilla chips with cheese, jalapenos, sour cream, and guacamole",
+    "price": 14.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Spicy Jalapeño Burger",
+    "description": "Angus patty with pepper jack, jalapenos, chipotle mayo, and pickled onions",
+    "price": 14.5,
+    "category": "entree",
+    "subcategory": "burger",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Turkey Burger",
+    "description": "Ground turkey patty with avocado, Swiss, and garlic aioli",
+    "price": 17.5,
+    "category": "entree",
+    "subcategory": "burger",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Grilled Chicken Sandwich",
+    "description": "Marinated grilled chicken with lettuce, tomato, and herb mayo",
+    "price": 18.5,
+    "category": "entree",
+    "subcategory": "sandwich",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Truffle Burger",
+    "description": "Angus patty with truffle aioli, gruyere, arugula, and caramelized onions",
+    "price": 19,
+    "category": "entree",
+    "subcategory": "burger",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Classic Cheeseburger",
+    "description": "Angus beef patty, American cheese, lettuce, tomato, onion, pickle",
+    "price": 16.5,
+    "category": "entree",
+    "subcategory": "burger",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Veggie Burger",
+    "description": "House-made plant-based patty with avocado, sprouts, and tahini",
+    "price": 15,
+    "category": "entree",
+    "subcategory": "burger",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Double Stack Burger",
+    "description": "Two Angus patties, double cheese, special sauce, on a toasted brioche",
+    "price": 16,
+    "category": "entree",
+    "subcategory": "burger",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "French Fries",
+    "description": "Classic thin-cut crispy fries with house seasoning",
+    "price": 4.5,
+    "category": "side",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Sweet Potato Fries",
+    "description": "Crispy sweet potato fries with chipotle mayo",
+    "price": 8,
+    "category": "side",
+    "subcategory": "fried",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Coleslaw",
+    "description": "Creamy house-made coleslaw",
+    "price": 3.5,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Milkshake",
+    "description": "Hand-spun shake — chocolate, vanilla, or strawberry",
+    "price": 7.5,
+    "category": "drink",
+    "subcategory": "shake",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Draft IPA",
+    "description": "Rotating local craft IPA on tap",
+    "price": 9.5,
+    "category": "drink",
+    "subcategory": "beer",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Brownie Sundae",
+    "description": "Warm chocolate brownie with vanilla ice cream, hot fudge, and whipped cream",
+    "price": 9.5,
+    "category": "dessert",
+    "subcategory": "chocolate",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Churro Bites",
+    "description": "Crispy churro pieces with chocolate and caramel dipping sauces",
+    "price": 9.5,
+    "category": "dessert",
+    "subcategory": "fried",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-10",
+    "restaurant_name": "The Counter Palo Alto",
+    "name": "Cookies & Cream Shake",
+    "description": "Premium shake with crushed Oreos and vanilla ice cream",
+    "price": 10.5,
+    "category": "dessert",
+    "subcategory": "shake",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "Chicken Wings",
+    "description": "Crispy wings tossed in buffalo, BBQ, or garlic Parmesan",
+    "price": 23,
+    "category": "appetizer",
+    "subcategory": "wings",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "Truffle Fries",
+    "description": "Crispy fries with truffle oil, Parmesan, and fresh herbs",
+    "price": 13,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "Mushroom Risotto",
+    "description": "Creamy Arborio rice with wild mushrooms and truffle oil",
+    "price": 27.5,
+    "category": "entree",
+    "subcategory": "risotto",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "New York Strip",
+    "description": "12oz Prime New York strip with peppercorn sauce",
+    "price": 63.5,
+    "category": "entree",
+    "subcategory": "steak",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "Braised Short Ribs",
+    "description": "Slow-braised beef short ribs with red wine reduction and polenta",
+    "price": 40.5,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "Wood-Fired Chicken",
+    "description": "Half roasted chicken with herb jus and seasonal vegetables",
+    "price": 26,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "Classic Burger",
+    "description": "Angus beef patty with lettuce, tomato, onion, and house sauce on brioche",
+    "price": 22,
+    "category": "entree",
+    "subcategory": "burger",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "Pan-Seared Trout",
+    "description": "Ruby trout with brown butter, almonds, and green beans",
+    "price": 38,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "Dry-Aged Ribeye",
+    "description": "14oz dry-aged Prime ribeye with compound butter",
+    "price": 60.5,
+    "category": "entree",
+    "subcategory": "steak",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "Mashed Potatoes",
+    "description": "Yukon Gold potatoes whipped with butter and cream",
+    "price": 12.5,
+    "category": "side",
+    "subcategory": "potato",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "Creamed Spinach",
+    "description": "Classic steakhouse creamed spinach",
+    "price": 12.5,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "Craft Lemonade",
+    "description": "Fresh-squeezed with lavender or raspberry",
+    "price": 6,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "Old Fashioned",
+    "description": "Bourbon, bitters, orange peel, cherry",
+    "price": 22,
+    "category": "drink",
+    "subcategory": "cocktail",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "Iced Tea",
+    "description": "House-brewed unsweetened black tea",
+    "price": 6,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-11",
+    "restaurant_name": "Joya Restaurant",
+    "name": "New York Cheesecake",
+    "description": "Classic creamy cheesecake with berry compote",
+    "price": 14.5,
+    "category": "dessert",
+    "subcategory": "cake",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Tom Yum Soup",
+    "description": "Hot and sour soup with shrimp, lemongrass, and galangal",
+    "price": 11,
+    "category": "appetizer",
+    "subcategory": "soup",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Crispy Wontons",
+    "description": "Fried wontons with cream cheese filling and sweet plum sauce",
+    "price": 12.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Satay Chicken",
+    "description": "Grilled chicken skewers with peanut sauce and cucumber relish",
+    "price": 14.5,
+    "category": "appetizer",
+    "subcategory": "grilled",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Larb Chicken",
+    "description": "Spicy minced chicken salad with lime, mint, and toasted rice",
+    "price": 12.5,
+    "category": "appetizer",
+    "subcategory": "salad",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Basil Fried Rice",
+    "description": "Wok-fried jasmine rice with Thai basil, chili, and choice of protein",
+    "price": 15.5,
+    "category": "entree",
+    "subcategory": "rice",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Pad See Ew",
+    "description": "Wide rice noodles with Chinese broccoli, egg, and sweet soy",
+    "price": 13,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Green Curry",
+    "description": "Coconut green curry with chicken, Thai basil, and bamboo shoots",
+    "price": 20,
+    "category": "entree",
+    "subcategory": "curry",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Panang Curry",
+    "description": "Thick red curry with chicken, kaffir lime leaves, and green beans",
+    "price": 18.5,
+    "category": "entree",
+    "subcategory": "curry",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Papaya Salad",
+    "description": "Shredded green papaya with lime, chili, and dried shrimp",
+    "price": 12,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Jasmine Rice",
+    "description": "Steamed Thai jasmine rice",
+    "price": 3.5,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Sticky Rice",
+    "description": "Thai glutinous rice",
+    "price": 5,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Thai Iced Tea",
+    "description": "Strong black tea with condensed milk and spices over ice",
+    "price": 5,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Coconut Water",
+    "description": "Fresh young coconut water",
+    "price": 6,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Lemongrass Ginger Ale",
+    "description": "House-made lemongrass and ginger soda",
+    "price": 5,
+    "category": "drink",
+    "subcategory": "soda",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Mango Sticky Rice",
+    "description": "Sweet coconut sticky rice with fresh Thai mango",
+    "price": 10,
+    "category": "dessert",
+    "subcategory": "traditional",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-12",
+    "restaurant_name": "Siam Royal Thai",
+    "name": "Coconut Ice Cream",
+    "description": "House-made coconut ice cream with peanuts and condensed milk",
+    "price": 9,
+    "category": "dessert",
+    "subcategory": "frozen",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Samosa Soup",
+    "description": "Crispy samosa pieces in warming chickpea-turmeric broth",
+    "price": 9.5,
+    "category": "appetizer",
+    "subcategory": "soup",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Golden Tofu",
+    "description": "Crispy chickpea tofu with spicy tamarind dipping sauce",
+    "price": 12,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Rainbow Salad",
+    "description": "Shredded vegetables with crushed peanuts, fried garlic, and lime",
+    "price": 14,
+    "category": "appetizer",
+    "subcategory": "salad",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Tea Leaf Salad",
+    "description": "Fermented tea leaves with fried garlic, peanuts, sesame, and lime",
+    "price": 15.5,
+    "category": "appetizer",
+    "subcategory": "salad",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Nan Gyi Thoke",
+    "description": "Thick rice noodles with chicken, chickpea flour, and crispy onions",
+    "price": 18,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Fiery Tofu",
+    "description": "Chickpea tofu stir-fried with chili, garlic, and bell peppers",
+    "price": 17,
+    "category": "entree",
+    "subcategory": "tofu",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Mango Chicken",
+    "description": "Tender chicken in fragrant mango curry sauce with rice",
+    "price": 14.5,
+    "category": "entree",
+    "subcategory": "curry",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Lamb Curry",
+    "description": "Slow-braised lamb in aromatic Burmese curry with potatoes",
+    "price": 25,
+    "category": "entree",
+    "subcategory": "curry",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Shrimp Curry",
+    "description": "Tiger shrimp in turmeric-tomato curry with rice",
+    "price": 21.5,
+    "category": "entree",
+    "subcategory": "curry",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Mohinga",
+    "description": "Traditional catfish noodle soup with lemongrass and banana stem",
+    "price": 12,
+    "category": "entree",
+    "subcategory": "soup",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Ginger Salad",
+    "description": "Shredded ginger with sesame, peanuts, and crispy lentils",
+    "price": 11.5,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Samosas (3)",
+    "description": "Crispy pastry with spiced potato filling",
+    "price": 8.5,
+    "category": "side",
+    "subcategory": "fried",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Coconut Rice",
+    "description": "Fragrant rice cooked with coconut milk",
+    "price": 4,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Burmese Milk Tea",
+    "description": "Strong tea with condensed and evaporated milk",
+    "price": 5,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-13",
+    "restaurant_name": "Rangoon Ruby",
+    "name": "Semolina Cake",
+    "description": "Burmese semolina cake with coconut and poppy seeds",
+    "price": 7,
+    "category": "dessert",
+    "subcategory": "cake",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Chicken Wings",
+    "description": "Crispy wings tossed in buffalo, BBQ, or garlic Parmesan",
+    "price": 22,
+    "category": "appetizer",
+    "subcategory": "wings",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Truffle Fries",
+    "description": "Crispy fries with truffle oil, Parmesan, and fresh herbs",
+    "price": 21,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Loaded Potato Skins",
+    "description": "Crispy potato halves with cheddar, bacon, and sour cream",
+    "price": 24,
+    "category": "appetizer",
+    "subcategory": "potato",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Crab Cake",
+    "description": "Pan-seared jumbo lump crab cake with remoulade",
+    "price": 27,
+    "category": "appetizer",
+    "subcategory": "seafood",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Mushroom Risotto",
+    "description": "Creamy Arborio rice with wild mushrooms and truffle oil",
+    "price": 31.5,
+    "category": "entree",
+    "subcategory": "risotto",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "New York Strip",
+    "description": "12oz Prime New York strip with peppercorn sauce",
+    "price": 66.5,
+    "category": "entree",
+    "subcategory": "steak",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Braised Short Ribs",
+    "description": "Slow-braised beef short ribs with red wine reduction and polenta",
+    "price": 56,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Wood-Fired Chicken",
+    "description": "Half roasted chicken with herb jus and seasonal vegetables",
+    "price": 41,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Classic Burger",
+    "description": "Angus beef patty with lettuce, tomato, onion, and house sauce on brioche",
+    "price": 23,
+    "category": "entree",
+    "subcategory": "burger",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Mashed Potatoes",
+    "description": "Yukon Gold potatoes whipped with butter and cream",
+    "price": 14,
+    "category": "side",
+    "subcategory": "potato",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Creamed Spinach",
+    "description": "Classic steakhouse creamed spinach",
+    "price": 11.5,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Craft Lemonade",
+    "description": "Fresh-squeezed with lavender or raspberry",
+    "price": 9,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Old Fashioned",
+    "description": "Bourbon, bitters, orange peel, cherry",
+    "price": 25.5,
+    "category": "drink",
+    "subcategory": "cocktail",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "New York Cheesecake",
+    "description": "Classic creamy cheesecake with berry compote",
+    "price": 21.5,
+    "category": "dessert",
+    "subcategory": "cake",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Chocolate Lava Cake",
+    "description": "Warm molten chocolate cake with vanilla ice cream",
+    "price": 22,
+    "category": "dessert",
+    "subcategory": "chocolate",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-14",
+    "restaurant_name": "Sundance The Steakhouse",
+    "name": "Apple Pie a la Mode",
+    "description": "Warm apple pie with cinnamon ice cream",
+    "price": 14,
+    "category": "dessert",
+    "subcategory": "pie",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Calamari Fritti",
+    "description": "Crispy fried calamari with marinara and lemon aioli",
+    "price": 15,
+    "category": "appetizer",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Carpaccio di Manzo",
+    "description": "Thinly sliced raw beef with arugula, capers, and shaved Parmigiano",
+    "price": 19.5,
+    "category": "appetizer",
+    "subcategory": "raw",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Bruschetta al Pomodoro",
+    "description": "Grilled bread with fresh tomatoes, basil, and extra virgin olive oil",
+    "price": 11.5,
+    "category": "appetizer",
+    "subcategory": "bread",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Arancini",
+    "description": "Crispy risotto balls stuffed with mozzarella, served with pomodoro",
+    "price": 11.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Osso Buco",
+    "description": "Braised veal shank with gremolata and saffron risotto",
+    "price": 37,
+    "category": "entree",
+    "subcategory": "meat",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Risotto ai Funghi",
+    "description": "Arborio rice with wild mushrooms, truffle oil, and Parmigiano",
+    "price": 23,
+    "category": "entree",
+    "subcategory": "risotto",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Chicken Parmesan",
+    "description": "Breaded chicken breast with marinara and melted mozzarella over spaghetti",
+    "price": 25.5,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Fettuccine Alfredo",
+    "description": "Fresh fettuccine tossed in butter and Parmigiano-Reggiano cream",
+    "price": 17.5,
+    "category": "entree",
+    "subcategory": "pasta",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Pasta Carbonara",
+    "description": "Spaghetti with guanciale, egg yolk, Pecorino Romano, black pepper",
+    "price": 19.5,
+    "category": "entree",
+    "subcategory": "pasta",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Lasagna Bolognese",
+    "description": "Layered pasta with beef and pork ragu, bechamel, and mozzarella",
+    "price": 22,
+    "category": "entree",
+    "subcategory": "pasta",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Branzino al Forno",
+    "description": "Oven-roasted Mediterranean sea bass with lemon and herbs",
+    "price": 34.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Caesar Salad",
+    "description": "Romaine, house-made dressing, croutons, shaved Parmigiano",
+    "price": 10.5,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Garlic Bread",
+    "description": "Toasted ciabatta with roasted garlic butter and herbs",
+    "price": 8,
+    "category": "side",
+    "subcategory": "bread",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Sauteed Broccolini",
+    "description": "With garlic, chili flakes, and olive oil",
+    "price": 10,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Italian Sparkling Water",
+    "description": "San Pellegrino 750ml",
+    "price": 4.5,
+    "category": "drink",
+    "subcategory": "water",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Cannoli",
+    "description": "Crispy shells filled with sweet ricotta and chocolate chips",
+    "price": 9.5,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Tiramisu",
+    "description": "Classic espresso-soaked ladyfingers with mascarpone cream",
+    "price": 12,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-15",
+    "restaurant_name": "Terun",
+    "name": "Panna Cotta",
+    "description": "Vanilla bean custard with seasonal berry compote",
+    "price": 12,
+    "category": "dessert",
+    "subcategory": "custard",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Chicken Wings",
+    "description": "Crispy wings tossed in buffalo, BBQ, or garlic Parmesan",
+    "price": 23,
+    "category": "appetizer",
+    "subcategory": "wings",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Truffle Fries",
+    "description": "Crispy fries with truffle oil, Parmesan, and fresh herbs",
+    "price": 15.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Loaded Potato Skins",
+    "description": "Crispy potato halves with cheddar, bacon, and sour cream",
+    "price": 23,
+    "category": "appetizer",
+    "subcategory": "potato",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Crab Cake",
+    "description": "Pan-seared jumbo lump crab cake with remoulade",
+    "price": 29.5,
+    "category": "appetizer",
+    "subcategory": "seafood",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Mushroom Risotto",
+    "description": "Creamy Arborio rice with wild mushrooms and truffle oil",
+    "price": 37,
+    "category": "entree",
+    "subcategory": "risotto",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "New York Strip",
+    "description": "12oz Prime New York strip with peppercorn sauce",
+    "price": 58.5,
+    "category": "entree",
+    "subcategory": "steak",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Braised Short Ribs",
+    "description": "Slow-braised beef short ribs with red wine reduction and polenta",
+    "price": 62,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Classic Burger",
+    "description": "Angus beef patty with lettuce, tomato, onion, and house sauce on brioche",
+    "price": 30,
+    "category": "entree",
+    "subcategory": "burger",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Wood-Fired Chicken",
+    "description": "Half roasted chicken with herb jus and seasonal vegetables",
+    "price": 33.5,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Pan-Seared Salmon",
+    "description": "Wild salmon with lemon-dill butter, asparagus, and fingerling potatoes",
+    "price": 49.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Mashed Potatoes",
+    "description": "Yukon Gold potatoes whipped with butter and cream",
+    "price": 13.5,
+    "category": "side",
+    "subcategory": "potato",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Creamed Spinach",
+    "description": "Classic steakhouse creamed spinach",
+    "price": 10,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Old Fashioned",
+    "description": "Bourbon, bitters, orange peel, cherry",
+    "price": 26,
+    "category": "drink",
+    "subcategory": "cocktail",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Craft Lemonade",
+    "description": "Fresh-squeezed with lavender or raspberry",
+    "price": 8.5,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Iced Tea",
+    "description": "House-brewed unsweetened black tea",
+    "price": 7,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "New York Cheesecake",
+    "description": "Classic creamy cheesecake with berry compote",
+    "price": 20.5,
+    "category": "dessert",
+    "subcategory": "cake",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Chocolate Lava Cake",
+    "description": "Warm molten chocolate cake with vanilla ice cream",
+    "price": 22.5,
+    "category": "dessert",
+    "subcategory": "chocolate",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-16",
+    "restaurant_name": "Chez TJ",
+    "name": "Apple Pie a la Mode",
+    "description": "Warm apple pie with cinnamon ice cream",
+    "price": 19,
+    "category": "dessert",
+    "subcategory": "pie",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Chicken Wings",
+    "description": "Crispy wings tossed in buffalo, BBQ, or garlic Parmesan",
+    "price": 18,
+    "category": "appetizer",
+    "subcategory": "wings",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Loaded Potato Skins",
+    "description": "Crispy potato halves with cheddar, bacon, and sour cream",
+    "price": 14.5,
+    "category": "appetizer",
+    "subcategory": "potato",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Mushroom Risotto",
+    "description": "Creamy Arborio rice with wild mushrooms and truffle oil",
+    "price": 24,
+    "category": "entree",
+    "subcategory": "risotto",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "New York Strip",
+    "description": "12oz Prime New York strip with peppercorn sauce",
+    "price": 47.5,
+    "category": "entree",
+    "subcategory": "steak",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Braised Short Ribs",
+    "description": "Slow-braised beef short ribs with red wine reduction and polenta",
+    "price": 39,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Classic Burger",
+    "description": "Angus beef patty with lettuce, tomato, onion, and house sauce on brioche",
+    "price": 21,
+    "category": "entree",
+    "subcategory": "burger",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Wood-Fired Chicken",
+    "description": "Half roasted chicken with herb jus and seasonal vegetables",
+    "price": 22.5,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Pan-Seared Salmon",
+    "description": "Wild salmon with lemon-dill butter, asparagus, and fingerling potatoes",
+    "price": 33,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Grilled Pork Chop",
+    "description": "Double-cut pork chop with apple chutney and mashed potatoes",
+    "price": 30,
+    "category": "entree",
+    "subcategory": "pork",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Mashed Potatoes",
+    "description": "Yukon Gold potatoes whipped with butter and cream",
+    "price": 8,
+    "category": "side",
+    "subcategory": "potato",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Creamed Spinach",
+    "description": "Classic steakhouse creamed spinach",
+    "price": 9,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Grilled Asparagus",
+    "description": "With lemon zest and olive oil",
+    "price": 10.5,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Old Fashioned",
+    "description": "Bourbon, bitters, orange peel, cherry",
+    "price": 17,
+    "category": "drink",
+    "subcategory": "cocktail",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Craft Lemonade",
+    "description": "Fresh-squeezed with lavender or raspberry",
+    "price": 4.5,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Iced Tea",
+    "description": "House-brewed unsweetened black tea",
+    "price": 5,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Chocolate Lava Cake",
+    "description": "Warm molten chocolate cake with vanilla ice cream",
+    "price": 14.5,
+    "category": "dessert",
+    "subcategory": "chocolate",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "New York Cheesecake",
+    "description": "Classic creamy cheesecake with berry compote",
+    "price": 10.5,
+    "category": "dessert",
+    "subcategory": "cake",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-17",
+    "restaurant_name": "Cascal",
+    "name": "Apple Pie a la Mode",
+    "description": "Warm apple pie with cinnamon ice cream",
+    "price": 13.5,
+    "category": "dessert",
+    "subcategory": "pie",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Gyoza",
+    "description": "Pan-fried pork dumplings with dipping sauce",
+    "price": 12,
+    "category": "appetizer",
+    "subcategory": "dumpling",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Shishito Peppers",
+    "description": "Blistered peppers with bonito flakes and ponzu",
+    "price": 12.5,
+    "category": "appetizer",
+    "subcategory": "vegetable",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Wagyu Donburi",
+    "description": "A5 wagyu beef over rice with truffle soy and soft egg",
+    "price": 35,
+    "category": "entree",
+    "subcategory": "rice bowl",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Salmon Sashimi",
+    "description": "12 pieces of premium fresh salmon sashimi",
+    "price": 24.5,
+    "category": "entree",
+    "subcategory": "sashimi",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Teriyaki Salmon",
+    "description": "Grilled salmon fillet with house teriyaki glaze and steamed rice",
+    "price": 33.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Dragon Roll",
+    "description": "Shrimp tempura roll topped with avocado and eel sauce",
+    "price": 23.5,
+    "category": "entree",
+    "subcategory": "sushi",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Tonkotsu Ramen",
+    "description": "Rich pork bone broth with chashu, soft egg, nori, and scallions",
+    "price": 28,
+    "category": "entree",
+    "subcategory": "ramen",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Chicken Katsu Curry",
+    "description": "Crispy breaded chicken with Japanese curry sauce over rice",
+    "price": 22,
+    "category": "entree",
+    "subcategory": "curry",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Black Cod Miso",
+    "description": "Miso-marinated black cod, broiled to perfection",
+    "price": 43,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Steamed Rice",
+    "description": "Japanese short-grain rice",
+    "price": 4.5,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Seaweed Salad",
+    "description": "Marinated wakame with sesame dressing",
+    "price": 10,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Miso Soup",
+    "description": "Traditional miso with tofu, wakame, and scallions",
+    "price": 5,
+    "category": "side",
+    "subcategory": "soup",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Ramune Soda",
+    "description": "Classic Japanese marble soda",
+    "price": 7,
+    "category": "drink",
+    "subcategory": "soda",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Sake Flight",
+    "description": "Three premium sake selections",
+    "price": 24.5,
+    "category": "drink",
+    "subcategory": "alcohol",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Japanese Green Tea",
+    "description": "Hot sencha green tea",
+    "price": 5.5,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Matcha Cheesecake",
+    "description": "Light Japanese-style cheesecake with matcha",
+    "price": 13.5,
+    "category": "dessert",
+    "subcategory": "cake",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Mochi Ice Cream",
+    "description": "Three assorted mochi ice cream flavors",
+    "price": 11,
+    "category": "dessert",
+    "subcategory": "frozen",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-18",
+    "restaurant_name": "Sushi Tomi",
+    "name": "Black Sesame Creme Brulee",
+    "description": "Rich custard with toasted black sesame",
+    "price": 15.5,
+    "category": "dessert",
+    "subcategory": "custard",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Tom Yum Soup",
+    "description": "Hot and sour soup with shrimp, lemongrass, and galangal",
+    "price": 11.5,
+    "category": "appetizer",
+    "subcategory": "soup",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Crispy Wontons",
+    "description": "Fried wontons with cream cheese filling and sweet plum sauce",
+    "price": 11.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Satay Chicken",
+    "description": "Grilled chicken skewers with peanut sauce and cucumber relish",
+    "price": 14,
+    "category": "appetizer",
+    "subcategory": "grilled",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Basil Fried Rice",
+    "description": "Wok-fried jasmine rice with Thai basil, chili, and choice of protein",
+    "price": 18,
+    "category": "entree",
+    "subcategory": "rice",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Pad See Ew",
+    "description": "Wide rice noodles with Chinese broccoli, egg, and sweet soy",
+    "price": 17,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Green Curry",
+    "description": "Coconut green curry with chicken, Thai basil, and bamboo shoots",
+    "price": 18.5,
+    "category": "entree",
+    "subcategory": "curry",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Panang Curry",
+    "description": "Thick red curry with chicken, kaffir lime leaves, and green beans",
+    "price": 18.5,
+    "category": "entree",
+    "subcategory": "curry",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Massaman Curry",
+    "description": "Rich peanut curry with beef, potatoes, and onions",
+    "price": 17.5,
+    "category": "entree",
+    "subcategory": "curry",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Pad Thai",
+    "description": "Stir-fried rice noodles with shrimp, bean sprouts, peanuts, and lime",
+    "price": 16,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Drunken Noodles",
+    "description": "Spicy wide noodles with basil, chili, bell peppers, and chicken",
+    "price": 15.5,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Papaya Salad",
+    "description": "Shredded green papaya with lime, chili, and dried shrimp",
+    "price": 9,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Jasmine Rice",
+    "description": "Steamed Thai jasmine rice",
+    "price": 3.5,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Sticky Rice",
+    "description": "Thai glutinous rice",
+    "price": 4.5,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Thai Iced Tea",
+    "description": "Strong black tea with condensed milk and spices over ice",
+    "price": 4.5,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Coconut Water",
+    "description": "Fresh young coconut water",
+    "price": 4.5,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Lemongrass Ginger Ale",
+    "description": "House-made lemongrass and ginger soda",
+    "price": 6,
+    "category": "drink",
+    "subcategory": "soda",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-19",
+    "restaurant_name": "Amarin Thai",
+    "name": "Mango Sticky Rice",
+    "description": "Sweet coconut sticky rice with fresh Thai mango",
+    "price": 9,
+    "category": "dessert",
+    "subcategory": "traditional",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "Chicken Wings",
+    "description": "Crispy wings tossed in buffalo, BBQ, or garlic Parmesan",
+    "price": 18.5,
+    "category": "appetizer",
+    "subcategory": "wings",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "Truffle Fries",
+    "description": "Crispy fries with truffle oil, Parmesan, and fresh herbs",
+    "price": 10.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "Mushroom Risotto",
+    "description": "Creamy Arborio rice with wild mushrooms and truffle oil",
+    "price": 22,
+    "category": "entree",
+    "subcategory": "risotto",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "New York Strip",
+    "description": "12oz Prime New York strip with peppercorn sauce",
+    "price": 51,
+    "category": "entree",
+    "subcategory": "steak",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "Braised Short Ribs",
+    "description": "Slow-braised beef short ribs with red wine reduction and polenta",
+    "price": 32.5,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "Wood-Fired Chicken",
+    "description": "Half roasted chicken with herb jus and seasonal vegetables",
+    "price": 21,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "Classic Burger",
+    "description": "Angus beef patty with lettuce, tomato, onion, and house sauce on brioche",
+    "price": 17.5,
+    "category": "entree",
+    "subcategory": "burger",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "Pan-Seared Trout",
+    "description": "Ruby trout with brown butter, almonds, and green beans",
+    "price": 30.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "Dry-Aged Ribeye",
+    "description": "14oz dry-aged Prime ribeye with compound butter",
+    "price": 48.5,
+    "category": "entree",
+    "subcategory": "steak",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "Mashed Potatoes",
+    "description": "Yukon Gold potatoes whipped with butter and cream",
+    "price": 10,
+    "category": "side",
+    "subcategory": "potato",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "Creamed Spinach",
+    "description": "Classic steakhouse creamed spinach",
+    "price": 10,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "Craft Lemonade",
+    "description": "Fresh-squeezed with lavender or raspberry",
+    "price": 5,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "Old Fashioned",
+    "description": "Bourbon, bitters, orange peel, cherry",
+    "price": 17.5,
+    "category": "drink",
+    "subcategory": "cocktail",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "Iced Tea",
+    "description": "House-brewed unsweetened black tea",
+    "price": 5,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-20",
+    "restaurant_name": "Scratch",
+    "name": "New York Cheesecake",
+    "description": "Classic creamy cheesecake with berry compote",
+    "price": 11.5,
+    "category": "dessert",
+    "subcategory": "cake",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Chicken Wings",
+    "description": "Crispy wings tossed in buffalo, BBQ, or garlic Parmesan",
+    "price": 21,
+    "category": "appetizer",
+    "subcategory": "wings",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Truffle Fries",
+    "description": "Crispy fries with truffle oil, Parmesan, and fresh herbs",
+    "price": 18.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Loaded Potato Skins",
+    "description": "Crispy potato halves with cheddar, bacon, and sour cream",
+    "price": 20,
+    "category": "appetizer",
+    "subcategory": "potato",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Crab Cake",
+    "description": "Pan-seared jumbo lump crab cake with remoulade",
+    "price": 23.5,
+    "category": "appetizer",
+    "subcategory": "seafood",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Mushroom Risotto",
+    "description": "Creamy Arborio rice with wild mushrooms and truffle oil",
+    "price": 28,
+    "category": "entree",
+    "subcategory": "risotto",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "New York Strip",
+    "description": "12oz Prime New York strip with peppercorn sauce",
+    "price": 48,
+    "category": "entree",
+    "subcategory": "steak",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Braised Short Ribs",
+    "description": "Slow-braised beef short ribs with red wine reduction and polenta",
+    "price": 50,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Wood-Fired Chicken",
+    "description": "Half roasted chicken with herb jus and seasonal vegetables",
+    "price": 32.5,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Mashed Potatoes",
+    "description": "Yukon Gold potatoes whipped with butter and cream",
+    "price": 12,
+    "category": "side",
+    "subcategory": "potato",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Creamed Spinach",
+    "description": "Classic steakhouse creamed spinach",
+    "price": 12,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Grilled Asparagus",
+    "description": "With lemon zest and olive oil",
+    "price": 13.5,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Craft Lemonade",
+    "description": "Fresh-squeezed with lavender or raspberry",
+    "price": 6.5,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Old Fashioned",
+    "description": "Bourbon, bitters, orange peel, cherry",
+    "price": 21.5,
+    "category": "drink",
+    "subcategory": "cocktail",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Iced Tea",
+    "description": "House-brewed unsweetened black tea",
+    "price": 5,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "New York Cheesecake",
+    "description": "Classic creamy cheesecake with berry compote",
+    "price": 15,
+    "category": "dessert",
+    "subcategory": "cake",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-21",
+    "restaurant_name": "Camper",
+    "name": "Chocolate Lava Cake",
+    "description": "Warm molten chocolate cake with vanilla ice cream",
+    "price": 19,
+    "category": "dessert",
+    "subcategory": "chocolate",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Falafel",
+    "description": "Crispy chickpea fritters with tahini and pickled turnips",
+    "price": 14,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Grilled Halloumi",
+    "description": "Pan-seared halloumi cheese with za'atar, honey, and mint",
+    "price": 19.5,
+    "category": "appetizer",
+    "subcategory": "cheese",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Grilled Octopus",
+    "description": "Charred tentacles with capers, olive oil, and lemon",
+    "price": 26.5,
+    "category": "appetizer",
+    "subcategory": "seafood",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Hummus Plate",
+    "description": "Creamy chickpea dip with olive oil, paprika, and warm pita",
+    "price": 16.5,
+    "category": "appetizer",
+    "subcategory": "dip",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Vegetable Tagine",
+    "description": "Slow-cooked vegetables in Moroccan spices with couscous",
+    "price": 25.5,
+    "category": "entree",
+    "subcategory": "vegetarian",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Lamb Kofta",
+    "description": "Grilled ground lamb skewers with yogurt sauce and rice",
+    "price": 28,
+    "category": "entree",
+    "subcategory": "lamb",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Lamb Chops",
+    "description": "Grilled Colorado lamb chops with lemon potatoes and tzatziki",
+    "price": 36,
+    "category": "entree",
+    "subcategory": "lamb",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Whole Branzino",
+    "description": "Wood-grilled Mediterranean sea bass with lemon and herbs",
+    "price": 46.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Steak Kebab",
+    "description": "Grilled beef tenderloin skewers with peppers and onions",
+    "price": 35.5,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Moussaka",
+    "description": "Layered eggplant and ground lamb with bechamel gratin",
+    "price": 20.5,
+    "category": "entree",
+    "subcategory": "traditional",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Greek Salad",
+    "description": "Tomato, cucumber, olive, feta, and red onion",
+    "price": 17.5,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Roasted Potatoes",
+    "description": "Lemon herb roasted fingerling potatoes",
+    "price": 10.5,
+    "category": "side",
+    "subcategory": "potato",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Tabbouleh",
+    "description": "Bulgur wheat with parsley, tomato, mint, and lemon",
+    "price": 10,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Turkish Coffee",
+    "description": "Traditional finely-ground coffee with cardamom",
+    "price": 6.5,
+    "category": "drink",
+    "subcategory": "coffee",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-22",
+    "restaurant_name": "Bistro Vida",
+    "name": "Baklava",
+    "description": "Flaky phyllo with walnuts, pistachios, and honey syrup",
+    "price": 13,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Wonton Soup",
+    "description": "Pork and shrimp wontons in clear chicken broth",
+    "price": 10,
+    "category": "appetizer",
+    "subcategory": "soup",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Hot and Sour Soup",
+    "description": "Classic soup with tofu, mushrooms, bamboo shoots, and egg",
+    "price": 9.5,
+    "category": "appetizer",
+    "subcategory": "soup",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Cucumber Salad",
+    "description": "Smashed cucumbers with chili oil, garlic, and vinegar",
+    "price": 10,
+    "category": "appetizer",
+    "subcategory": "salad",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Xiao Long Bao",
+    "description": "Steamed soup dumplings with pork and rich broth",
+    "price": 13,
+    "category": "appetizer",
+    "subcategory": "dumpling",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Mapo Tofu",
+    "description": "Silken tofu in spicy chili bean sauce with minced pork",
+    "price": 14,
+    "category": "entree",
+    "subcategory": "tofu",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Dan Dan Noodles",
+    "description": "Sichuan noodles with chili oil, peanuts, and minced pork",
+    "price": 15,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Peking Duck",
+    "description": "Whole roasted duck with pancakes, scallions, and hoisin sauce",
+    "price": 46,
+    "category": "entree",
+    "subcategory": "duck",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Kung Pao Chicken",
+    "description": "Wok-fried chicken with peanuts, chili peppers, and Sichuan peppercorn",
+    "price": 19.5,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Beef Noodle Soup",
+    "description": "Braised beef in rich broth with hand-pulled noodles and bok choy",
+    "price": 14.5,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Stir-Fried Bok Choy",
+    "description": "Baby bok choy with garlic and oyster sauce",
+    "price": 11.5,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Steamed White Rice",
+    "description": "Jasmine rice",
+    "price": 3,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Lychee Juice",
+    "description": "Fresh lychee fruit juice",
+    "price": 6,
+    "category": "drink",
+    "subcategory": "juice",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Tsingtao Beer",
+    "description": "Classic Chinese lager",
+    "price": 6.5,
+    "category": "drink",
+    "subcategory": "beer",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Mango Pudding",
+    "description": "Silky mango gelatin with condensed milk",
+    "price": 9.5,
+    "category": "dessert",
+    "subcategory": "pudding",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Sesame Balls",
+    "description": "Crispy fried glutinous rice balls with red bean paste",
+    "price": 8,
+    "category": "dessert",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-23",
+    "restaurant_name": "Fey Restaurant",
+    "name": "Egg Tart",
+    "description": "Flaky pastry shell with silky egg custard filling",
+    "price": 5,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Falafel",
+    "description": "Crispy chickpea fritters with tahini and pickled turnips",
+    "price": 15,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Grilled Halloumi",
+    "description": "Pan-seared halloumi cheese with za'atar, honey, and mint",
+    "price": 19,
+    "category": "appetizer",
+    "subcategory": "cheese",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Grilled Octopus",
+    "description": "Charred tentacles with capers, olive oil, and lemon",
+    "price": 21.5,
+    "category": "appetizer",
+    "subcategory": "seafood",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Hummus Plate",
+    "description": "Creamy chickpea dip with olive oil, paprika, and warm pita",
+    "price": 12,
+    "category": "appetizer",
+    "subcategory": "dip",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Lamb Kofta",
+    "description": "Grilled ground lamb skewers with yogurt sauce and rice",
+    "price": 28.5,
+    "category": "entree",
+    "subcategory": "lamb",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Vegetable Tagine",
+    "description": "Slow-cooked vegetables in Moroccan spices with couscous",
+    "price": 24.5,
+    "category": "entree",
+    "subcategory": "vegetarian",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Whole Branzino",
+    "description": "Wood-grilled Mediterranean sea bass with lemon and herbs",
+    "price": 43.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Lamb Chops",
+    "description": "Grilled Colorado lamb chops with lemon potatoes and tzatziki",
+    "price": 44,
+    "category": "entree",
+    "subcategory": "lamb",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Chicken Shawarma Plate",
+    "description": "Slow-roasted spiced chicken with rice, hummus, and salad",
+    "price": 24.5,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Chicken Souvlaki",
+    "description": "Marinated chicken skewers with tzatziki and Greek salad",
+    "price": 26,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Steak Kebab",
+    "description": "Grilled beef tenderloin skewers with peppers and onions",
+    "price": 37,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Greek Salad",
+    "description": "Tomato, cucumber, olive, feta, and red onion",
+    "price": 13,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Tabbouleh",
+    "description": "Bulgur wheat with parsley, tomato, mint, and lemon",
+    "price": 12,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Roasted Potatoes",
+    "description": "Lemon herb roasted fingerling potatoes",
+    "price": 9.5,
+    "category": "side",
+    "subcategory": "potato",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Turkish Coffee",
+    "description": "Traditional finely-ground coffee with cardamom",
+    "price": 6,
+    "category": "drink",
+    "subcategory": "coffee",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Baklava",
+    "description": "Flaky phyllo with walnuts, pistachios, and honey syrup",
+    "price": 12,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Loukoumades",
+    "description": "Greek honey donuts with cinnamon and walnuts",
+    "price": 12.5,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-24",
+    "restaurant_name": "Left Bank Brasserie",
+    "name": "Kunafa",
+    "description": "Crispy shredded phyllo with sweet cheese and rose-orange blossom syrup",
+    "price": 16.5,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Falafel",
+    "description": "Crispy chickpea fritters with tahini and pickled turnips",
+    "price": 12.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Grilled Halloumi",
+    "description": "Pan-seared halloumi cheese with za'atar, honey, and mint",
+    "price": 11.5,
+    "category": "appetizer",
+    "subcategory": "cheese",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Grilled Octopus",
+    "description": "Charred tentacles with capers, olive oil, and lemon",
+    "price": 21,
+    "category": "appetizer",
+    "subcategory": "seafood",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Hummus Plate",
+    "description": "Creamy chickpea dip with olive oil, paprika, and warm pita",
+    "price": 12,
+    "category": "appetizer",
+    "subcategory": "dip",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Lamb Kofta",
+    "description": "Grilled ground lamb skewers with yogurt sauce and rice",
+    "price": 22.5,
+    "category": "entree",
+    "subcategory": "lamb",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Whole Branzino",
+    "description": "Wood-grilled Mediterranean sea bass with lemon and herbs",
+    "price": 26.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Vegetable Tagine",
+    "description": "Slow-cooked vegetables in Moroccan spices with couscous",
+    "price": 20.5,
+    "category": "entree",
+    "subcategory": "vegetarian",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Lamb Chops",
+    "description": "Grilled Colorado lamb chops with lemon potatoes and tzatziki",
+    "price": 38,
+    "category": "entree",
+    "subcategory": "lamb",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Chicken Shawarma Plate",
+    "description": "Slow-roasted spiced chicken with rice, hummus, and salad",
+    "price": 16.5,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Chicken Souvlaki",
+    "description": "Marinated chicken skewers with tzatziki and Greek salad",
+    "price": 21.5,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Tabbouleh",
+    "description": "Bulgur wheat with parsley, tomato, mint, and lemon",
+    "price": 9,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Greek Salad",
+    "description": "Tomato, cucumber, olive, feta, and red onion",
+    "price": 10,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Turkish Coffee",
+    "description": "Traditional finely-ground coffee with cardamom",
+    "price": 5.5,
+    "category": "drink",
+    "subcategory": "coffee",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Pomegranate Spritzer",
+    "description": "Sparkling water with pomegranate juice and lime",
+    "price": 8,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Fresh Mint Lemonade",
+    "description": "House-squeezed lemonade with fresh mint",
+    "price": 7,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Baklava",
+    "description": "Flaky phyllo with walnuts, pistachios, and honey syrup",
+    "price": 11.5,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Loukoumades",
+    "description": "Greek honey donuts with cinnamon and walnuts",
+    "price": 11.5,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-25",
+    "restaurant_name": "Kali Greek Kitchen",
+    "name": "Kunafa",
+    "description": "Crispy shredded phyllo with sweet cheese and rose-orange blossom syrup",
+    "price": 14,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Grilled Halloumi",
+    "description": "Pan-seared halloumi cheese with za'atar, honey, and mint",
+    "price": 19.5,
+    "category": "appetizer",
+    "subcategory": "cheese",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Falafel",
+    "description": "Crispy chickpea fritters with tahini and pickled turnips",
+    "price": 17,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Lamb Kofta",
+    "description": "Grilled ground lamb skewers with yogurt sauce and rice",
+    "price": 27,
+    "category": "entree",
+    "subcategory": "lamb",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Whole Branzino",
+    "description": "Wood-grilled Mediterranean sea bass with lemon and herbs",
+    "price": 40.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Vegetable Tagine",
+    "description": "Slow-cooked vegetables in Moroccan spices with couscous",
+    "price": 24.5,
+    "category": "entree",
+    "subcategory": "vegetarian",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Lamb Chops",
+    "description": "Grilled Colorado lamb chops with lemon potatoes and tzatziki",
+    "price": 49.5,
+    "category": "entree",
+    "subcategory": "lamb",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Chicken Shawarma Plate",
+    "description": "Slow-roasted spiced chicken with rice, hummus, and salad",
+    "price": 21,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Chicken Souvlaki",
+    "description": "Marinated chicken skewers with tzatziki and Greek salad",
+    "price": 26.5,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Steak Kebab",
+    "description": "Grilled beef tenderloin skewers with peppers and onions",
+    "price": 32.5,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Tabbouleh",
+    "description": "Bulgur wheat with parsley, tomato, mint, and lemon",
+    "price": 10,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Greek Salad",
+    "description": "Tomato, cucumber, olive, feta, and red onion",
+    "price": 16.5,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Roasted Potatoes",
+    "description": "Lemon herb roasted fingerling potatoes",
+    "price": 10,
+    "category": "side",
+    "subcategory": "potato",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Turkish Coffee",
+    "description": "Traditional finely-ground coffee with cardamom",
+    "price": 7,
+    "category": "drink",
+    "subcategory": "coffee",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Pomegranate Spritzer",
+    "description": "Sparkling water with pomegranate juice and lime",
+    "price": 7.5,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Fresh Mint Lemonade",
+    "description": "House-squeezed lemonade with fresh mint",
+    "price": 9,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Baklava",
+    "description": "Flaky phyllo with walnuts, pistachios, and honey syrup",
+    "price": 14,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Loukoumades",
+    "description": "Greek honey donuts with cinnamon and walnuts",
+    "price": 11,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-26",
+    "restaurant_name": "Zola",
+    "name": "Kunafa",
+    "description": "Crispy shredded phyllo with sweet cheese and rose-orange blossom syrup",
+    "price": 18.5,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Elote",
+    "description": "Grilled Mexican street corn with mayo, cotija, chili, and lime",
+    "price": 7.5,
+    "category": "appetizer",
+    "subcategory": "vegetable",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Queso Fundido",
+    "description": "Melted Oaxacan cheese with chorizo and flour tortillas",
+    "price": 13,
+    "category": "appetizer",
+    "subcategory": "cheese",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Carnitas Tacos",
+    "description": "Three slow-cooked pork tacos with onion, cilantro, and salsa",
+    "price": 13,
+    "category": "entree",
+    "subcategory": "taco",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Al Pastor Tacos",
+    "description": "Three spit-roasted pork tacos with pineapple, onion, and cilantro",
+    "price": 13.5,
+    "category": "entree",
+    "subcategory": "taco",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Shrimp Fajitas",
+    "description": "Sizzling shrimp with peppers and onions, served with tortillas",
+    "price": 24.5,
+    "category": "entree",
+    "subcategory": "fajita",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Carne Asada Plate",
+    "description": "Grilled marinated skirt steak with rice, beans, and pico de gallo",
+    "price": 24.5,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Chile Relleno",
+    "description": "Roasted poblano stuffed with cheese, topped with ranchero sauce",
+    "price": 21,
+    "category": "entree",
+    "subcategory": "traditional",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Mole Poblano",
+    "description": "Chicken in rich chocolate-chili mole sauce with rice and beans",
+    "price": 18.5,
+    "category": "entree",
+    "subcategory": "traditional",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Chicken Enchiladas",
+    "description": "Three corn tortillas with shredded chicken, red sauce, and cheese",
+    "price": 16,
+    "category": "entree",
+    "subcategory": "traditional",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Mexican Rice",
+    "description": "Traditional tomato-seasoned rice",
+    "price": 6,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Refried Beans",
+    "description": "Creamy pinto beans with cotija cheese",
+    "price": 6,
+    "category": "side",
+    "subcategory": "beans",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Chips & Salsa",
+    "description": "House-made tortilla chips with salsa roja and salsa verde",
+    "price": 6,
+    "category": "side",
+    "subcategory": "snack",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Horchata",
+    "description": "Traditional rice milk with cinnamon and vanilla",
+    "price": 5.5,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Classic Margarita",
+    "description": "Tequila, fresh lime, triple sec, salt rim",
+    "price": 14,
+    "category": "drink",
+    "subcategory": "cocktail",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Jarritos",
+    "description": "Mexican fruit soda — tamarind, mandarin, or lime",
+    "price": 4.5,
+    "category": "drink",
+    "subcategory": "soda",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Churros con Chocolate",
+    "description": "Crispy cinnamon-sugar churros with chocolate dipping sauce",
+    "price": 11,
+    "category": "dessert",
+    "subcategory": "fried",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Tres Leches Cake",
+    "description": "Three-milk sponge cake with whipped cream and berries",
+    "price": 12,
+    "category": "dessert",
+    "subcategory": "cake",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-27",
+    "restaurant_name": "Reposado",
+    "name": "Flan",
+    "description": "Classic Mexican caramel custard",
+    "price": 10.5,
+    "category": "dessert",
+    "subcategory": "custard",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Wonton Soup",
+    "description": "Pork and shrimp wontons in clear chicken broth",
+    "price": 11.5,
+    "category": "appetizer",
+    "subcategory": "soup",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Hot and Sour Soup",
+    "description": "Classic soup with tofu, mushrooms, bamboo shoots, and egg",
+    "price": 9.5,
+    "category": "appetizer",
+    "subcategory": "soup",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Cucumber Salad",
+    "description": "Smashed cucumbers with chili oil, garlic, and vinegar",
+    "price": 9.5,
+    "category": "appetizer",
+    "subcategory": "salad",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Peking Duck",
+    "description": "Whole roasted duck with pancakes, scallions, and hoisin sauce",
+    "price": 50.5,
+    "category": "entree",
+    "subcategory": "duck",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Mapo Tofu",
+    "description": "Silken tofu in spicy chili bean sauce with minced pork",
+    "price": 17,
+    "category": "entree",
+    "subcategory": "tofu",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Dan Dan Noodles",
+    "description": "Sichuan noodles with chili oil, peanuts, and minced pork",
+    "price": 16.5,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Kung Pao Chicken",
+    "description": "Wok-fried chicken with peanuts, chili peppers, and Sichuan peppercorn",
+    "price": 18.5,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Beef Noodle Soup",
+    "description": "Braised beef in rich broth with hand-pulled noodles and bok choy",
+    "price": 16.5,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Mongolian Beef",
+    "description": "Sliced flank steak with scallions in savory-sweet sauce",
+    "price": 18,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Shrimp with Lobster Sauce",
+    "description": "Large shrimp in egg-based lobster sauce with peas",
+    "price": 18.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Stir-Fried Bok Choy",
+    "description": "Baby bok choy with garlic and oyster sauce",
+    "price": 9,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Steamed White Rice",
+    "description": "Jasmine rice",
+    "price": 3.5,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Egg Drop Soup",
+    "description": "Light chicken broth with silky egg ribbons",
+    "price": 6.5,
+    "category": "side",
+    "subcategory": "soup",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Lychee Juice",
+    "description": "Fresh lychee fruit juice",
+    "price": 4.5,
+    "category": "drink",
+    "subcategory": "juice",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Tsingtao Beer",
+    "description": "Classic Chinese lager",
+    "price": 5.5,
+    "category": "drink",
+    "subcategory": "beer",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Jasmine Tea",
+    "description": "Fragrant Chinese jasmine green tea",
+    "price": 5,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-28",
+    "restaurant_name": "Din Tai Fung",
+    "name": "Mango Pudding",
+    "description": "Silky mango gelatin with condensed milk",
+    "price": 7,
+    "category": "dessert",
+    "subcategory": "pudding",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-29",
+    "restaurant_name": "Gochi Japanese Fusion Tapas",
+    "name": "Gyoza",
+    "description": "Pan-fried pork dumplings with dipping sauce",
+    "price": 11,
+    "category": "appetizer",
+    "subcategory": "dumpling",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-29",
+    "restaurant_name": "Gochi Japanese Fusion Tapas",
+    "name": "Shishito Peppers",
+    "description": "Blistered peppers with bonito flakes and ponzu",
+    "price": 9,
+    "category": "appetizer",
+    "subcategory": "vegetable",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-29",
+    "restaurant_name": "Gochi Japanese Fusion Tapas",
+    "name": "Wagyu Donburi",
+    "description": "A5 wagyu beef over rice with truffle soy and soft egg",
+    "price": 31.5,
+    "category": "entree",
+    "subcategory": "rice bowl",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-29",
+    "restaurant_name": "Gochi Japanese Fusion Tapas",
+    "name": "Salmon Sashimi",
+    "description": "12 pieces of premium fresh salmon sashimi",
+    "price": 25,
+    "category": "entree",
+    "subcategory": "sashimi",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-29",
+    "restaurant_name": "Gochi Japanese Fusion Tapas",
+    "name": "Teriyaki Salmon",
+    "description": "Grilled salmon fillet with house teriyaki glaze and steamed rice",
+    "price": 24,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-29",
+    "restaurant_name": "Gochi Japanese Fusion Tapas",
+    "name": "Tonkotsu Ramen",
+    "description": "Rich pork bone broth with chashu, soft egg, nori, and scallions",
+    "price": 19.5,
+    "category": "entree",
+    "subcategory": "ramen",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-29",
+    "restaurant_name": "Gochi Japanese Fusion Tapas",
+    "name": "Steamed Rice",
+    "description": "Japanese short-grain rice",
+    "price": 3.5,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-29",
+    "restaurant_name": "Gochi Japanese Fusion Tapas",
+    "name": "Seaweed Salad",
+    "description": "Marinated wakame with sesame dressing",
+    "price": 8,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-29",
+    "restaurant_name": "Gochi Japanese Fusion Tapas",
+    "name": "Miso Soup",
+    "description": "Traditional miso with tofu, wakame, and scallions",
+    "price": 4.5,
+    "category": "side",
+    "subcategory": "soup",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-29",
+    "restaurant_name": "Gochi Japanese Fusion Tapas",
+    "name": "Ramune Soda",
+    "description": "Classic Japanese marble soda",
+    "price": 6,
+    "category": "drink",
+    "subcategory": "soda",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-29",
+    "restaurant_name": "Gochi Japanese Fusion Tapas",
+    "name": "Sake Flight",
+    "description": "Three premium sake selections",
+    "price": 20.5,
+    "category": "drink",
+    "subcategory": "alcohol",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-29",
+    "restaurant_name": "Gochi Japanese Fusion Tapas",
+    "name": "Japanese Green Tea",
+    "description": "Hot sencha green tea",
+    "price": 4.5,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-29",
+    "restaurant_name": "Gochi Japanese Fusion Tapas",
+    "name": "Matcha Cheesecake",
+    "description": "Light Japanese-style cheesecake with matcha",
+    "price": 12,
+    "category": "dessert",
+    "subcategory": "cake",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "Mozzarella Sticks",
+    "description": "Breaded and fried mozzarella with marinara dipping sauce",
+    "price": 11,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "Italian Salad",
+    "description": "Mixed greens with salami, provolone, pepperoncini, and Italian dressing",
+    "price": 15,
+    "category": "appetizer",
+    "subcategory": "salad",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "Arancini",
+    "description": "Fried risotto balls with mozzarella and marinara",
+    "price": 14.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "Garlic Knots",
+    "description": "Warm dough knots tossed in garlic butter and herbs",
+    "price": 8.5,
+    "category": "appetizer",
+    "subcategory": "bread",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "Pepperoni Pizza",
+    "description": "Classic pepperoni with mozzarella and red sauce",
+    "price": 17.5,
+    "category": "entree",
+    "subcategory": "pizza",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "Hawaiian Pizza",
+    "description": "Ham, pineapple, mozzarella, and red sauce",
+    "price": 15,
+    "category": "entree",
+    "subcategory": "pizza",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "White Truffle Pizza",
+    "description": "Truffle cream, wild mushrooms, fontina, and arugula",
+    "price": 23.5,
+    "category": "entree",
+    "subcategory": "pizza",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "Prosciutto & Arugula Pizza",
+    "description": "Prosciutto di Parma, arugula, shaved Parmigiano, and lemon oil",
+    "price": 20.5,
+    "category": "entree",
+    "subcategory": "pizza",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "Caesar Salad",
+    "description": "Romaine, Parmesan, croutons, and classic Caesar dressing",
+    "price": 12,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "Garlic Breadsticks",
+    "description": "Warm breadsticks with garlic butter and marinara",
+    "price": 8,
+    "category": "side",
+    "subcategory": "bread",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "House Salad",
+    "description": "Mixed greens with tomato, cucumber, and balsamic vinaigrette",
+    "price": 9.5,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "House Red Wine",
+    "description": "Glass of Italian red — Chianti or Montepulciano",
+    "price": 10,
+    "category": "drink",
+    "subcategory": "wine",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "Draft Beer",
+    "description": "Rotating selection of local craft beers",
+    "price": 8,
+    "category": "drink",
+    "subcategory": "beer",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "Italian Soda",
+    "description": "Sparkling water with your choice of fruit syrup",
+    "price": 4,
+    "category": "drink",
+    "subcategory": "soda",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "Nutella Pizza",
+    "description": "Dessert pizza with Nutella, strawberries, and powdered sugar",
+    "price": 12,
+    "category": "dessert",
+    "subcategory": "pizza",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-30",
+    "restaurant_name": "Doppio Zero Pizza Napoletana",
+    "name": "Gelato",
+    "description": "Two scoops of artisan Italian gelato",
+    "price": 9,
+    "category": "dessert",
+    "subcategory": "frozen",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Samosa",
+    "description": "Crispy pastry filled with spiced potatoes and peas, with tamarind chutney",
+    "price": 7.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Paneer Tikka",
+    "description": "Grilled cottage cheese with peppers and onions in tandoori marinade",
+    "price": 15.5,
+    "category": "appetizer",
+    "subcategory": "tandoori",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Chicken Tikka",
+    "description": "Tandoori-marinated chicken pieces with mint chutney",
+    "price": 16.5,
+    "category": "appetizer",
+    "subcategory": "tandoori",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Vegetable Pakora",
+    "description": "Assorted vegetables in spiced chickpea batter, deep-fried",
+    "price": 10.5,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Lamb Rogan Josh",
+    "description": "Slow-cooked lamb in Kashmiri chili and yogurt sauce",
+    "price": 26.5,
+    "category": "entree",
+    "subcategory": "curry",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Chana Masala",
+    "description": "Chickpeas in tangy tomato-onion gravy with cumin and coriander",
+    "price": 17,
+    "category": "entree",
+    "subcategory": "vegetarian",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils in butter and cream",
+    "price": 13,
+    "category": "entree",
+    "subcategory": "vegetarian",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Shrimp Curry",
+    "description": "Tiger shrimp in coconut-tomato curry with curry leaves",
+    "price": 25,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Tandoori Mixed Grill",
+    "description": "Assorted tandoori chicken, lamb, and shrimp from the clay oven",
+    "price": 28.5,
+    "category": "entree",
+    "subcategory": "tandoori",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Chicken Biryani",
+    "description": "Fragrant basmati rice layered with spiced chicken and saffron",
+    "price": 16.5,
+    "category": "entree",
+    "subcategory": "rice",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Garlic Naan",
+    "description": "Tandoor-baked flatbread with roasted garlic and butter",
+    "price": 4.5,
+    "category": "side",
+    "subcategory": "bread",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Basmati Rice",
+    "description": "Steamed aged basmati rice",
+    "price": 5,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Raita",
+    "description": "Cool yogurt with cucumber, mint, and cumin",
+    "price": 4,
+    "category": "side",
+    "subcategory": "condiment",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Sweet Lassi",
+    "description": "Traditional sweetened yogurt drink with rosewater",
+    "price": 5,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-31",
+    "restaurant_name": "Janta Indian Restaurant",
+    "name": "Mango Kulfi",
+    "description": "Indian-style frozen mango cream with pistachios",
+    "price": 7,
+    "category": "dessert",
+    "subcategory": "frozen",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Samosa",
+    "description": "Crispy pastry filled with spiced potatoes and peas, with tamarind chutney",
+    "price": 8,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Paneer Tikka",
+    "description": "Grilled cottage cheese with peppers and onions in tandoori marinade",
+    "price": 15,
+    "category": "appetizer",
+    "subcategory": "tandoori",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Chicken Tikka",
+    "description": "Tandoori-marinated chicken pieces with mint chutney",
+    "price": 17,
+    "category": "appetizer",
+    "subcategory": "tandoori",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Papadum Basket",
+    "description": "Crispy lentil wafers with three chutneys",
+    "price": 6,
+    "category": "appetizer",
+    "subcategory": "bread",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Chana Masala",
+    "description": "Chickpeas in tangy tomato-onion gravy with cumin and coriander",
+    "price": 14,
+    "category": "entree",
+    "subcategory": "vegetarian",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils in butter and cream",
+    "price": 15,
+    "category": "entree",
+    "subcategory": "vegetarian",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Lamb Rogan Josh",
+    "description": "Slow-cooked lamb in Kashmiri chili and yogurt sauce",
+    "price": 24,
+    "category": "entree",
+    "subcategory": "curry",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Shrimp Curry",
+    "description": "Tiger shrimp in coconut-tomato curry with curry leaves",
+    "price": 23,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Tandoori Mixed Grill",
+    "description": "Assorted tandoori chicken, lamb, and shrimp from the clay oven",
+    "price": 20.5,
+    "category": "entree",
+    "subcategory": "tandoori",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Garlic Naan",
+    "description": "Tandoor-baked flatbread with roasted garlic and butter",
+    "price": 4.5,
+    "category": "side",
+    "subcategory": "bread",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Basmati Rice",
+    "description": "Steamed aged basmati rice",
+    "price": 4,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Sweet Lassi",
+    "description": "Traditional sweetened yogurt drink with rosewater",
+    "price": 6,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Mango Lassi",
+    "description": "Creamy yogurt smoothie with Alphonso mango",
+    "price": 6.5,
+    "category": "drink",
+    "subcategory": "non-alcoholic",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Gulab Jamun",
+    "description": "Warm milk dumplings in cardamom-rose syrup",
+    "price": 9.5,
+    "category": "dessert",
+    "subcategory": "traditional",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Kheer",
+    "description": "Creamy rice pudding with pistachios, almonds, and saffron",
+    "price": 9,
+    "category": "dessert",
+    "subcategory": "pudding",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-32",
+    "restaurant_name": "Darbar Indian Cuisine",
+    "name": "Mango Kulfi",
+    "description": "Indian-style frozen mango cream with pistachios",
+    "price": 6,
+    "category": "dessert",
+    "subcategory": "frozen",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Tteokbokki",
+    "description": "Spicy stir-fried rice cakes in gochujang sauce with fish cakes",
+    "price": 12,
+    "category": "appetizer",
+    "subcategory": "rice cake",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Kimchi Pancake",
+    "description": "Crispy scallion and kimchi pancake with soy dipping sauce",
+    "price": 15,
+    "category": "appetizer",
+    "subcategory": "pancake",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Japchae",
+    "description": "Sweet potato glass noodles with vegetables and sesame",
+    "price": 12.5,
+    "category": "appetizer",
+    "subcategory": "noodle",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Korean Fried Chicken",
+    "description": "Double-fried crispy chicken with gochujang or soy garlic glaze",
+    "price": 12,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Bulgogi",
+    "description": "Thinly sliced marinated beef grilled to perfection with rice",
+    "price": 23,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Seafood Pancake (Haemul Pajeon)",
+    "description": "Large crispy pancake loaded with shrimp, squid, and scallions",
+    "price": 23,
+    "category": "entree",
+    "subcategory": "pancake",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Army Stew (Budae Jjigae)",
+    "description": "Korean fusion stew with kimchi, ramen, sausage, and spam",
+    "price": 25.5,
+    "category": "entree",
+    "subcategory": "stew",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Bibimbap",
+    "description": "Rice bowl with vegetables, egg, gochujang, and choice of protein",
+    "price": 17.5,
+    "category": "entree",
+    "subcategory": "rice bowl",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Japchae with Beef",
+    "description": "Glass noodles stir-fried with beef and seasonal vegetables",
+    "price": 19.5,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Spicy Pork BBQ",
+    "description": "Gochujang-marinated pork belly grilled with lettuce wraps",
+    "price": 22,
+    "category": "entree",
+    "subcategory": "pork",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Dolsot Bibimbap",
+    "description": "Sizzling stone pot rice with vegetables, egg, and crispy bottom",
+    "price": 23.5,
+    "category": "entree",
+    "subcategory": "rice bowl",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Steamed Rice",
+    "description": "Short-grain Korean rice",
+    "price": 3.5,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Kimchi",
+    "description": "House-fermented napa cabbage kimchi",
+    "price": 4.5,
+    "category": "side",
+    "subcategory": "pickle",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Makgeolli",
+    "description": "Traditional Korean rice wine — sweet and milky",
+    "price": 9.5,
+    "category": "drink",
+    "subcategory": "alcohol",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Hotteok",
+    "description": "Sweet stuffed Korean pancake with brown sugar and nuts",
+    "price": 7.5,
+    "category": "dessert",
+    "subcategory": "pancake",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Yakgwa",
+    "description": "Traditional honey cookie with sesame and ginger",
+    "price": 7,
+    "category": "dessert",
+    "subcategory": "cookie",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-33",
+    "restaurant_name": "Korea Palace",
+    "name": "Bingsu",
+    "description": "Shaved ice with red bean, mochi, condensed milk, and fruit",
+    "price": 15.5,
+    "category": "dessert",
+    "subcategory": "frozen",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Gyoza",
+    "description": "Pan-fried pork dumplings with dipping sauce",
+    "price": 13,
+    "category": "appetizer",
+    "subcategory": "dumpling",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Shishito Peppers",
+    "description": "Blistered peppers with bonito flakes and ponzu",
+    "price": 11,
+    "category": "appetizer",
+    "subcategory": "vegetable",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Edamame",
+    "description": "Steamed soybeans with sea salt",
+    "price": 10.5,
+    "category": "appetizer",
+    "subcategory": "vegetable",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Takoyaki",
+    "description": "Octopus fritters with takoyaki sauce, mayo, and bonito",
+    "price": 15,
+    "category": "appetizer",
+    "subcategory": "fried",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Wagyu Donburi",
+    "description": "A5 wagyu beef over rice with truffle soy and soft egg",
+    "price": 45,
+    "category": "entree",
+    "subcategory": "rice bowl",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Salmon Sashimi",
+    "description": "12 pieces of premium fresh salmon sashimi",
+    "price": 24.5,
+    "category": "entree",
+    "subcategory": "sashimi",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Teriyaki Salmon",
+    "description": "Grilled salmon fillet with house teriyaki glaze and steamed rice",
+    "price": 33.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Dragon Roll",
+    "description": "Shrimp tempura roll topped with avocado and eel sauce",
+    "price": 24,
+    "category": "entree",
+    "subcategory": "sushi",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Black Cod Miso",
+    "description": "Miso-marinated black cod, broiled to perfection",
+    "price": 39.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Tonkotsu Ramen",
+    "description": "Rich pork bone broth with chashu, soft egg, nori, and scallions",
+    "price": 26.5,
+    "category": "entree",
+    "subcategory": "ramen",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Steamed Rice",
+    "description": "Japanese short-grain rice",
+    "price": 4,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Seaweed Salad",
+    "description": "Marinated wakame with sesame dressing",
+    "price": 7.5,
+    "category": "side",
+    "subcategory": "salad",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Ramune Soda",
+    "description": "Classic Japanese marble soda",
+    "price": 7,
+    "category": "drink",
+    "subcategory": "soda",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Sake Flight",
+    "description": "Three premium sake selections",
+    "price": 26,
+    "category": "drink",
+    "subcategory": "alcohol",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Japanese Green Tea",
+    "description": "Hot sencha green tea",
+    "price": 6,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Matcha Cheesecake",
+    "description": "Light Japanese-style cheesecake with matcha",
+    "price": 14.5,
+    "category": "dessert",
+    "subcategory": "cake",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Mochi Ice Cream",
+    "description": "Three assorted mochi ice cream flavors",
+    "price": 11.5,
+    "category": "dessert",
+    "subcategory": "frozen",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-34",
+    "restaurant_name": "Roku Japanese Restaurant",
+    "name": "Black Sesame Creme Brulee",
+    "description": "Rich custard with toasted black sesame",
+    "price": 16,
+    "category": "dessert",
+    "subcategory": "custard",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Wonton Soup",
+    "description": "Pork and shrimp wontons in clear chicken broth",
+    "price": 12,
+    "category": "appetizer",
+    "subcategory": "soup",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Hot and Sour Soup",
+    "description": "Classic soup with tofu, mushrooms, bamboo shoots, and egg",
+    "price": 9,
+    "category": "appetizer",
+    "subcategory": "soup",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Mapo Tofu",
+    "description": "Silken tofu in spicy chili bean sauce with minced pork",
+    "price": 16,
+    "category": "entree",
+    "subcategory": "tofu",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Dan Dan Noodles",
+    "description": "Sichuan noodles with chili oil, peanuts, and minced pork",
+    "price": 16.5,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Peking Duck",
+    "description": "Whole roasted duck with pancakes, scallions, and hoisin sauce",
+    "price": 48,
+    "category": "entree",
+    "subcategory": "duck",
+    "source": "ubereats"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Kung Pao Chicken",
+    "description": "Wok-fried chicken with peanuts, chili peppers, and Sichuan peppercorn",
+    "price": 20,
+    "category": "entree",
+    "subcategory": "chicken",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Beef Noodle Soup",
+    "description": "Braised beef in rich broth with hand-pulled noodles and bok choy",
+    "price": 16,
+    "category": "entree",
+    "subcategory": "noodle",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Mongolian Beef",
+    "description": "Sliced flank steak with scallions in savory-sweet sauce",
+    "price": 21,
+    "category": "entree",
+    "subcategory": "beef",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Shrimp with Lobster Sauce",
+    "description": "Large shrimp in egg-based lobster sauce with peas",
+    "price": 20.5,
+    "category": "entree",
+    "subcategory": "seafood",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Stir-Fried Bok Choy",
+    "description": "Baby bok choy with garlic and oyster sauce",
+    "price": 10,
+    "category": "side",
+    "subcategory": "vegetable",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Steamed White Rice",
+    "description": "Jasmine rice",
+    "price": 3.5,
+    "category": "side",
+    "subcategory": "grain",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Egg Drop Soup",
+    "description": "Light chicken broth with silky egg ribbons",
+    "price": 7,
+    "category": "side",
+    "subcategory": "soup",
+    "source": "doordash"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Lychee Juice",
+    "description": "Fresh lychee fruit juice",
+    "price": 5.5,
+    "category": "drink",
+    "subcategory": "juice",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Tsingtao Beer",
+    "description": "Classic Chinese lager",
+    "price": 5.5,
+    "category": "drink",
+    "subcategory": "beer",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Jasmine Tea",
+    "description": "Fragrant Chinese jasmine green tea",
+    "price": 5,
+    "category": "drink",
+    "subcategory": "tea",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Mango Pudding",
+    "description": "Silky mango gelatin with condensed milk",
+    "price": 9,
+    "category": "dessert",
+    "subcategory": "pudding",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Sesame Balls",
+    "description": "Crispy fried glutinous rice balls with red bean paste",
+    "price": 6,
+    "category": "dessert",
+    "subcategory": "fried",
+    "source": "website"
+  },
+  {
+    "restaurant_id": "rest-35",
+    "restaurant_name": "Tai Pan",
+    "name": "Egg Tart",
+    "description": "Flaky pastry shell with silky egg custard filling",
+    "price": 7.5,
+    "category": "dessert",
+    "subcategory": "pastry",
+    "source": "website"
+  }
+]

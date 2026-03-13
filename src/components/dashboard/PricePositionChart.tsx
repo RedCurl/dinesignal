@@ -6,8 +6,10 @@ interface PricePositionChartProps {
   competitors: CompetitorCard[];
 }
 
+const mono = "'JetBrains Mono', monospace";
+const sans = "'Inter', sans-serif";
+
 export default function PricePositionChart({ restaurant, competitors }: PricePositionChartProps) {
-  // Calculate this restaurant's avg entree price
   const myItems = getMenuItemsByRestaurant(restaurant.id);
   const myEntrees = myItems.filter((i) => i.category === 'entree');
   const myAvg =
@@ -27,21 +29,62 @@ export default function PricePositionChart({ restaurant, competitors }: PricePos
   }
 
   return (
-    <div className="bg-gray-900/70 backdrop-blur-xl border border-blue-500/20 rounded-xl p-6">
-      <h3 className="text-lg font-bold text-gray-50 mb-1">
+    <div
+      style={{
+        background: 'rgba(17,24,39,0.7)',
+        backdropFilter: 'blur(20px)',
+        border: '1px solid rgba(59,130,246,0.2)',
+        borderRadius: 16,
+        padding: 24,
+      }}
+    >
+      <h3 style={{ fontSize: 18, fontWeight: 700, color: '#F9FAFB', margin: '0 0 4px', fontFamily: sans }}>
         Your Price Position vs. Nearby Competitors
       </h3>
-      <p className="text-sm text-gray-500 mb-6">Average entree price comparison</p>
+      <p style={{ fontSize: 13, color: '#6B7280', margin: '0 0 24px', fontFamily: sans }}>
+        Average entree price comparison
+      </p>
 
-      <div className="relative py-8">
+      <div style={{ position: 'relative', padding: '32px 0' }}>
         {/* Axis line */}
-        <div className="absolute top-1/2 left-0 right-0 h-px bg-gray-700" />
+        <div
+          style={{
+            position: 'absolute',
+            top: '50%',
+            left: 0,
+            right: 0,
+            height: 1,
+            background: '#374151',
+          }}
+        />
 
-        {/* Price labels */}
-        <div className="absolute top-1/2 mt-6 left-0 text-xs text-gray-500 font-mono">
+        {/* Min price label */}
+        <div
+          style={{
+            position: 'absolute',
+            top: '50%',
+            marginTop: 24,
+            left: 0,
+            fontSize: 11,
+            color: '#6B7280',
+            fontFamily: mono,
+          }}
+        >
           ${minPrice}
         </div>
-        <div className="absolute top-1/2 mt-6 right-0 text-xs text-gray-500 font-mono">
+
+        {/* Max price label */}
+        <div
+          style={{
+            position: 'absolute',
+            top: '50%',
+            marginTop: 24,
+            right: 0,
+            fontSize: 11,
+            color: '#6B7280',
+            fontFamily: mono,
+          }}
+        >
           ${maxPrice}
         </div>
 
@@ -51,14 +94,46 @@ export default function PricePositionChart({ restaurant, competitors }: PricePos
           return (
             <div
               key={c.id}
-              className="absolute top-1/2 -translate-y-1/2 flex flex-col items-center"
-              style={{ left: `${left}%` }}
+              style={{
+                position: 'absolute',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                left: `${left}%`,
+              }}
             >
-              <span className="text-[10px] text-gray-500 whitespace-nowrap mb-1 -translate-y-4">
+              <span
+                style={{
+                  fontSize: 10,
+                  color: '#6B7280',
+                  whiteSpace: 'nowrap',
+                  marginBottom: 4,
+                  transform: 'translateY(-16px)',
+                  fontFamily: sans,
+                }}
+              >
                 {c.name.length > 14 ? c.name.slice(0, 14) + '...' : c.name}
               </span>
-              <div className="w-3 h-3 rounded-full bg-gray-500/60 border border-gray-500" />
-              <span className="text-[10px] text-gray-600 font-mono mt-1 translate-y-1">
+              <div
+                style={{
+                  width: 12,
+                  height: 12,
+                  borderRadius: '50%',
+                  background: 'rgba(107,114,128,0.6)',
+                  border: '1px solid #6B7280',
+                }}
+              />
+              <span
+                style={{
+                  fontSize: 10,
+                  color: '#4B5563',
+                  fontFamily: mono,
+                  marginTop: 4,
+                  transform: 'translateY(4px)',
+                }}
+              >
                 ${c.avg_entree_price.toFixed(0)}
               </span>
             </div>
@@ -67,14 +142,50 @@ export default function PricePositionChart({ restaurant, competitors }: PricePos
 
         {/* This restaurant dot */}
         <div
-          className="absolute top-1/2 -translate-y-1/2 flex flex-col items-center z-10"
-          style={{ left: `${pct(myAvg)}%` }}
+          style={{
+            position: 'absolute',
+            top: '50%',
+            transform: 'translateY(-50%)',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            left: `${pct(myAvg)}%`,
+            zIndex: 10,
+          }}
         >
-          <span className="text-[11px] text-blue-400 font-bold whitespace-nowrap mb-1 -translate-y-4">
+          <span
+            style={{
+              fontSize: 11,
+              color: '#60A5FA',
+              fontWeight: 700,
+              whiteSpace: 'nowrap',
+              marginBottom: 4,
+              transform: 'translateY(-16px)',
+              fontFamily: sans,
+            }}
+          >
             {restaurant.name}
           </span>
-          <div className="w-5 h-5 rounded-full bg-blue-500 border-2 border-blue-300 shadow-[0_0_12px_rgba(59,130,246,0.5)]" />
-          <span className="text-[11px] text-blue-400 font-mono font-bold mt-1 translate-y-1">
+          <div
+            style={{
+              width: 20,
+              height: 20,
+              borderRadius: '50%',
+              background: '#3B82F6',
+              border: '2px solid #93C5FD',
+              boxShadow: '0 0 12px rgba(59,130,246,0.5)',
+            }}
+          />
+          <span
+            style={{
+              fontSize: 11,
+              color: '#60A5FA',
+              fontFamily: mono,
+              fontWeight: 700,
+              marginTop: 4,
+              transform: 'translateY(4px)',
+            }}
+          >
             ${myAvg.toFixed(0)}
           </span>
         </div>

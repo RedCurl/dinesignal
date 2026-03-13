@@ -4,7 +4,7 @@ interface PriceEvent {
   id: number;
   restaurant: string;
   item: string;
-  change: number; // positive = increase, negative = decrease
+  change: number;
   date: string;
 }
 
@@ -16,49 +16,100 @@ const EVENTS: PriceEvent[] = [
   { id: 5, restaurant: 'Burma Love', item: 'Tea Leaf Salad', change: -1.0, date: 'Feb 15' },
 ];
 
+const mono = "'JetBrains Mono', monospace";
+const sans = "'Inter', sans-serif";
+
 export default function PriceTrends() {
   return (
-    <div className="bg-gray-900/70 backdrop-blur-xl border border-blue-500/20 rounded-xl p-6">
-      <div className="flex items-center gap-2 mb-4">
-        <div className="w-1.5 h-5 rounded-full bg-orange-500" />
-        <h3 className="text-lg font-bold text-gray-50">Recent Market Activity</h3>
+    <div
+      style={{
+        background: 'rgba(17,24,39,0.7)',
+        backdropFilter: 'blur(20px)',
+        border: '1px solid rgba(59,130,246,0.2)',
+        borderRadius: 16,
+        padding: 24,
+      }}
+    >
+      {/* Header */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 16 }}>
+        <div
+          style={{
+            width: 6,
+            height: 20,
+            borderRadius: 9999,
+            background: '#F59E0B',
+          }}
+        />
+        <h3 style={{ fontSize: 18, fontWeight: 700, color: '#F9FAFB', margin: 0, fontFamily: sans }}>
+          Recent Market Activity
+        </h3>
       </div>
 
-      <div className="space-y-3">
-        {EVENTS.map((e) => {
+      {/* Events */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
+        {EVENTS.map((e, idx) => {
           const isIncrease = e.change > 0;
+          const isLast = idx === EVENTS.length - 1;
           return (
             <div
               key={e.id}
-              className="flex items-start gap-3 py-2 border-b border-gray-800/40 last:border-b-0"
+              style={{
+                display: 'flex',
+                alignItems: 'flex-start',
+                gap: 12,
+                padding: '8px 0',
+                borderBottom: isLast ? 'none' : '1px solid rgba(31,41,55,0.4)',
+              }}
             >
+              {/* Dot */}
               <div
-                className={`mt-1 w-2 h-2 rounded-full shrink-0 ${
-                  isIncrease ? 'bg-red-500' : 'bg-green-500'
-                }`}
+                style={{
+                  marginTop: 6,
+                  width: 8,
+                  height: 8,
+                  borderRadius: '50%',
+                  flexShrink: 0,
+                  background: isIncrease ? '#EF4444' : '#10B981',
+                }}
               />
-              <div className="flex-1 min-w-0">
-                <p className="text-sm text-gray-200">
-                  <span className="font-medium">{e.restaurant}</span>{' '}
-                  <span className="text-gray-400">
+
+              {/* Text */}
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <p style={{ fontSize: 13, color: '#E5E7EB', margin: 0, fontFamily: sans }}>
+                  <span style={{ fontWeight: 500 }}>{e.restaurant}</span>{' '}
+                  <span style={{ color: '#9CA3AF' }}>
                     {isIncrease ? 'raised' : 'lowered'}{' '}
                   </span>
-                  <span className="text-gray-300">{e.item}</span>{' '}
-                  <span className="text-gray-400">by </span>
+                  <span style={{ color: '#D1D5DB' }}>{e.item}</span>{' '}
+                  <span style={{ color: '#9CA3AF' }}>by </span>
                   <span
-                    className={`font-mono ${isIncrease ? 'text-red-400' : 'text-green-400'}`}
+                    style={{
+                      fontFamily: mono,
+                      color: isIncrease ? '#EF4444' : '#34D399',
+                    }}
                   >
                     ${Math.abs(e.change).toFixed(2)}
                   </span>
                 </p>
               </div>
-              <div className="flex items-center gap-1.5 shrink-0">
+
+              {/* Right side */}
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: 6,
+                  flexShrink: 0,
+                }}
+              >
                 {isIncrease ? (
-                  <TrendingUp className="w-3.5 h-3.5 text-red-400" />
+                  <TrendingUp style={{ width: 14, height: 14, color: '#EF4444' }} />
                 ) : (
-                  <TrendingDown className="w-3.5 h-3.5 text-green-400" />
+                  <TrendingDown style={{ width: 14, height: 14, color: '#34D399' }} />
                 )}
-                <span className="text-xs text-gray-500">{e.date}</span>
+                <span style={{ fontSize: 11, color: '#6B7280', fontFamily: sans }}>
+                  {e.date}
+                </span>
               </div>
             </div>
           );

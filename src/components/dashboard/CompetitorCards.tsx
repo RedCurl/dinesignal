@@ -7,48 +7,133 @@ interface CompetitorCardsProps {
   restaurantId: string;
 }
 
+const mono = "'JetBrains Mono', monospace";
+const sans = "'Inter', sans-serif";
+
 export default function CompetitorCards({ competitors, restaurantId }: CompetitorCardsProps) {
   const shown = competitors.slice(0, 6);
 
   return (
-    <div className="bg-gray-900/70 backdrop-blur-xl border border-blue-500/20 rounded-xl p-6">
-      <div className="flex items-center gap-2 mb-4">
-        <h3 className="text-lg font-bold text-gray-50">Nearby Competitors</h3>
-        <span className="bg-blue-500/20 text-blue-400 text-xs rounded-full px-2 py-0.5">
+    <div
+      style={{
+        background: 'rgba(17,24,39,0.7)',
+        backdropFilter: 'blur(20px)',
+        border: '1px solid rgba(59,130,246,0.2)',
+        borderRadius: 16,
+        padding: 24,
+      }}
+    >
+      {/* Header */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 16 }}>
+        <h3 style={{ fontSize: 18, fontWeight: 700, color: '#F9FAFB', margin: 0, fontFamily: sans }}>
+          Nearby Competitors
+        </h3>
+        <span
+          style={{
+            background: 'rgba(59,130,246,0.2)',
+            color: '#60A5FA',
+            fontSize: 11,
+            borderRadius: 9999,
+            padding: '2px 8px',
+            fontFamily: sans,
+          }}
+        >
           {competitors.length}
         </span>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+      {/* Grid */}
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(3, 1fr)',
+          gap: 12,
+        }}
+      >
         {shown.map((c) => (
           <div
             key={c.id}
-            className="bg-gray-800/50 border border-gray-700/50 rounded-lg p-4 hover:border-blue-500/30 transition-colors"
+            style={{
+              background: 'rgba(31,41,55,0.5)',
+              border: '1px solid rgba(55,65,81,0.5)',
+              borderRadius: 12,
+              padding: 16,
+            }}
           >
-            <p className="font-bold text-gray-100 text-sm mb-1.5 truncate">{c.name}</p>
-            <span className="inline-block bg-blue-500/15 text-blue-400 rounded-full px-2 py-0.5 text-xs mb-2">
+            <p
+              style={{
+                fontWeight: 700,
+                color: '#F3F4F6',
+                fontSize: 13,
+                marginBottom: 6,
+                fontFamily: sans,
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                whiteSpace: 'nowrap',
+                margin: '0 0 6px',
+              }}
+            >
+              {c.name}
+            </p>
+            <span
+              style={{
+                display: 'inline-block',
+                background: 'rgba(59,130,246,0.15)',
+                color: '#60A5FA',
+                borderRadius: 9999,
+                padding: '2px 8px',
+                fontSize: 11,
+                marginBottom: 8,
+                fontFamily: sans,
+              }}
+            >
               {c.cuisine_type}
             </span>
 
-            <div className="flex items-center justify-between text-xs text-gray-400 mb-1">
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                fontSize: 11,
+                color: '#9CA3AF',
+                marginBottom: 4,
+                fontFamily: sans,
+              }}
+            >
               <span>{c.distance} mi</span>
-              <span className="flex items-center gap-0.5 text-yellow-400">
-                <Star className="w-3 h-3 fill-yellow-400" />
+              <span style={{ display: 'flex', alignItems: 'center', gap: 2, color: '#FBBF24' }}>
+                <Star style={{ width: 12, height: 12, fill: '#FBBF24', color: '#FBBF24' }} />
                 {c.rating}
               </span>
             </div>
 
-            <div className="flex items-center justify-between mt-2">
-              <span className="font-mono text-sm text-gray-200">
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                marginTop: 8,
+              }}
+            >
+              <span style={{ fontFamily: mono, fontSize: 13, color: '#E5E7EB' }}>
                 ${c.avg_entree_price.toFixed(2)}
-                <span className="text-xs text-gray-500 ml-1">avg</span>
+                <span style={{ fontSize: 11, color: '#6B7280', marginLeft: 4 }}>avg</span>
               </span>
               <Link
                 to={`/compare?a=${restaurantId}&b=${c.id}`}
-                className="inline-flex items-center gap-0.5 text-xs text-blue-400 hover:text-blue-300 transition-colors"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: 2,
+                  fontSize: 11,
+                  color: '#60A5FA',
+                  textDecoration: 'none',
+                  fontFamily: sans,
+                }}
               >
                 Compare
-                <ArrowRight className="w-3 h-3" />
+                <ArrowRight style={{ width: 12, height: 12 }} />
               </Link>
             </div>
           </div>

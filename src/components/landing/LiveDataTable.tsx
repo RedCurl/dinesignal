@@ -1,94 +1,123 @@
 import { ArrowUp } from 'lucide-react';
 
 const DATA = [
-  { item: 'Margherita Pizza',     yours: 14.00, market: 17.50, delta: 3.50,  pct: 22, impact: 9100  },
-  { item: 'Grilled Salmon',       yours: 24.00, market: 29.50, delta: 5.50,  pct: 28, impact: 22880 },
-  { item: 'Caesar Salad',         yours: 12.00, market: 14.50, delta: 2.50,  pct: 18, impact: 6500  },
-  { item: 'Filet Mignon',         yours: 42.00, market: 48.00, delta: 6.00,  pct: 35, impact: 24960 },
-  { item: 'Truffle Fries',        yours: 11.00, market: 13.00, delta: 2.00,  pct: 30, impact: 5200  },
-  { item: 'Lobster Risotto',      yours: 28.00, market: 34.00, delta: 6.00,  pct: 25, impact: 24960 },
+  { item: 'Margherita Pizza', yours: 14.00, market: 17.50, delta: 3.50, pct: 22, impact: 9100 },
+  { item: 'Grilled Salmon', yours: 24.00, market: 29.50, delta: 5.50, pct: 28, impact: 22880 },
+  { item: 'Caesar Salad', yours: 12.00, market: 14.50, delta: 2.50, pct: 18, impact: 6500 },
+  { item: 'Filet Mignon', yours: 42.00, market: 48.00, delta: 6.00, pct: 35, impact: 24960 },
+  { item: 'Truffle Fries', yours: 11.00, market: 13.00, delta: 2.00, pct: 30, impact: 5200 },
+  { item: 'Lobster Risotto', yours: 28.00, market: 34.00, delta: 6.00, pct: 25, impact: 24960 },
 ];
 
 const totalAnnual = DATA.reduce((s, r) => s + r.impact, 0);
 const totalMonthly = Math.round(totalAnnual / 12);
 
+const mono = "'JetBrains Mono', monospace";
+
 export default function LiveDataTable() {
   return (
-    <section className="py-24 px-6">
-      <div className="max-w-7xl mx-auto">
-        {/* Heading */}
-        <div className="flex items-center gap-3 mb-8">
-          <h2 className="text-2xl font-bold text-white">Real-time competitive analysis</h2>
-          <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
-          </span>
-          <span className="bg-green-500/20 text-green-400 text-xs font-mono font-medium px-2 py-0.5 rounded-full">
-            LIVE
-          </span>
+    <section style={{ padding: '80px 40px', maxWidth: '1280px', margin: '0 auto' }}>
+      {/* Heading */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '32px' }}>
+        <h2 style={{ fontSize: '24px', fontWeight: 700, color: '#fff' }}>Real-time competitive analysis</h2>
+        <span style={{
+          width: '8px', height: '8px', borderRadius: '50%', background: '#10B981',
+          display: 'inline-block', boxShadow: '0 0 8px #10B981',
+        }} />
+        <span style={{
+          background: 'rgba(16,185,129,0.2)', color: '#34D399',
+          fontSize: '11px', fontFamily: mono, fontWeight: 500,
+          padding: '2px 10px', borderRadius: '9999px',
+        }}>LIVE</span>
+      </div>
+
+      {/* Table container */}
+      <div style={{
+        background: 'rgba(17,24,39,0.7)',
+        border: '1px solid rgba(59,130,246,0.2)',
+        borderRadius: '16px',
+        overflow: 'hidden',
+      }}>
+        {/* Header row */}
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: '2fr 1fr 1fr 1fr 1.5fr 1.2fr',
+          gap: '16px',
+          padding: '14px 24px',
+          fontSize: '10px',
+          color: '#6B7280',
+          fontFamily: mono,
+          textTransform: 'uppercase',
+          letterSpacing: '0.08em',
+          borderBottom: '1px solid rgba(55,65,81,0.5)',
+          background: 'rgba(17,24,39,0.5)',
+        }}>
+          <span>Menu Item</span>
+          <span style={{ textAlign: 'right' }}>Your Price</span>
+          <span style={{ textAlign: 'right' }}>Market Avg</span>
+          <span style={{ textAlign: 'right' }}>Delta</span>
+          <span>Percentile</span>
+          <span style={{ textAlign: 'right' }}>Annual Impact</span>
         </div>
 
-        {/* Table */}
-        <div className="bg-gray-900/70 backdrop-blur-xl border border-blue-500/20 rounded-xl overflow-hidden">
-          {/* Header */}
-          <div className="grid grid-cols-6 gap-4 px-6 py-3 text-xs text-gray-500 font-mono uppercase tracking-wider border-b border-gray-700/50">
-            <span>Menu Item</span>
-            <span className="text-right">Your Price</span>
-            <span className="text-right">Market Avg</span>
-            <span className="text-right">Delta</span>
-            <span>Percentile</span>
-            <span className="text-right">Annual Impact</span>
-          </div>
-
-          {/* Rows */}
-          {DATA.map((row, i) => (
-            <div
-              key={row.item}
-              className={`grid grid-cols-6 gap-4 px-6 py-4 items-center border-b border-gray-800/40 ${
-                i % 2 === 0 ? 'bg-gray-900/50' : 'bg-gray-800/30'
-              }`}
-            >
-              <span className="text-gray-200 text-sm">{row.item}</span>
-              <span className="text-right text-gray-400 font-mono text-sm">
-                ${row.yours.toFixed(2)}
-              </span>
-              <span className="text-right text-gray-400 font-mono text-sm">
-                ${row.market.toFixed(2)}
-              </span>
-              <span className="text-right text-green-400 font-mono text-sm font-medium">
-                +${row.delta.toFixed(2)}
-              </span>
-              <div className="flex items-center gap-2">
-                <div className="flex-1 h-1.5 bg-gray-800 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-blue-500 rounded-full"
-                    style={{ width: `${row.pct}%` }}
-                  />
-                </div>
-                <span className="text-gray-500 font-mono text-xs w-8 text-right">{row.pct}%</span>
+        {/* Data rows */}
+        {DATA.map((row, i) => (
+          <div
+            key={row.item}
+            style={{
+              display: 'grid',
+              gridTemplateColumns: '2fr 1fr 1fr 1fr 1.5fr 1.2fr',
+              gap: '16px',
+              padding: '14px 24px',
+              alignItems: 'center',
+              borderBottom: '1px solid rgba(31,41,55,0.4)',
+              background: i % 2 === 0 ? 'rgba(17,24,39,0.3)' : 'rgba(31,41,55,0.15)',
+            }}
+          >
+            <span style={{ color: '#E5E7EB', fontSize: '14px' }}>{row.item}</span>
+            <span style={{ textAlign: 'right', color: '#9CA3AF', fontFamily: mono, fontSize: '14px' }}>
+              ${row.yours.toFixed(2)}
+            </span>
+            <span style={{ textAlign: 'right', color: '#9CA3AF', fontFamily: mono, fontSize: '14px' }}>
+              ${row.market.toFixed(2)}
+            </span>
+            <span style={{ textAlign: 'right', color: '#34D399', fontFamily: mono, fontSize: '14px', fontWeight: 500 }}>
+              +${row.delta.toFixed(2)}
+            </span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <div style={{ flex: 1, height: '6px', background: '#1F2937', borderRadius: '3px', overflow: 'hidden' }}>
+                <div style={{ height: '100%', width: `${row.pct}%`, background: '#3B82F6', borderRadius: '3px' }} />
               </div>
-              <span className="text-right text-green-400 font-mono text-sm font-medium flex items-center justify-end gap-1">
-                <ArrowUp className="w-3.5 h-3.5" />
-                +${row.impact.toLocaleString()}
-              </span>
+              <span style={{ color: '#6B7280', fontFamily: mono, fontSize: '12px', minWidth: '30px', textAlign: 'right' }}>{row.pct}%</span>
             </div>
-          ))}
-
-          {/* Summary */}
-          <div className="px-6 py-4 border-t-2 border-green-500/30 bg-green-500/5">
-            <p className="text-sm text-gray-300">
-              Total identified opportunity:{' '}
-              <span className="text-green-400 font-mono font-bold">
-                +${totalAnnual.toLocaleString()}/year
-              </span>{' '}
-              &middot;{' '}
-              <span className="text-green-400 font-mono font-medium">
-                +${totalMonthly.toLocaleString()}/month
-              </span>{' '}
-              &middot;{' '}
-              <span className="text-gray-500">Based on 23 competitors within 2 miles</span>
-            </p>
+            <span style={{
+              textAlign: 'right', color: '#34D399', fontFamily: mono, fontSize: '14px', fontWeight: 500,
+              display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: '4px',
+            }}>
+              <ArrowUp style={{ width: '14px', height: '14px' }} />
+              +${row.impact.toLocaleString()}
+            </span>
           </div>
+        ))}
+
+        {/* Summary */}
+        <div style={{
+          padding: '16px 24px',
+          borderTop: '2px solid rgba(16,185,129,0.3)',
+          background: 'rgba(16,185,129,0.05)',
+        }}>
+          <p style={{ fontSize: '14px', color: '#D1D5DB' }}>
+            Total identified opportunity:{' '}
+            <span style={{ color: '#34D399', fontFamily: mono, fontWeight: 700 }}>
+              +${totalAnnual.toLocaleString()}/year
+            </span>{' '}
+            ·{' '}
+            <span style={{ color: '#34D399', fontFamily: mono, fontWeight: 500 }}>
+              +${totalMonthly.toLocaleString()}/month
+            </span>{' '}
+            ·{' '}
+            <span style={{ color: '#6B7280' }}>Based on 23 competitors within 2 miles</span>
+          </p>
         </div>
       </div>
     </section>
